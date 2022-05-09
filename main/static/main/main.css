@@ -1,0 +1,20 @@
+#v-pills-about-tab.active, #v-pills-mobile-app-tab.active, #v-pills-point-system-tab.active,
+#v-pills-actions-tab.active {
+    background-color: #43a047; /* Green */
+    width: 150px;
+}
+
+#v-pills-about-tab, #v-pills-mobile-app-tab, #v-pills-point-system-tab, #v-pills-actions-tab {
+    color: #FFFFFF;
+}
+
+html, body, #side-navigation {
+    background-color: #c7c7c7;
+}
+
+#v-pills-tab {
+    width: 150px;
+    background: #484848;
+    padding: 0px;
+    border-bottom-right-radius: 5px 5px;
+    }

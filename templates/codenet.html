@@ -12,69 +12,158 @@
 
 {% load static %}
 
-<center><div class="card" style="max-width: 40rem; margin: 15px">
-  <div class="card-header">Code.Net</div>
-  <div class="card-body">
-<!--    <h5 class="card-title">Success card title</h5>-->
-    <p class="card-text" align="left" style="text-indent: 50px">Enter a world in 2090 where all systems have been digitalized. The government is training their workforce to combat hackers through a social deduction game. Connect together with friends and family on the application and score as many points as possible using abilities and deception.</p>
-  </div>
-</div></center>
+<!--<center><div class="card" style="max-width: 40rem; margin: 15px">-->
+<!--  <div class="card-header">Code.Net</div>-->
+<!--  <div class="card-body">-->
+<!--&lt;!&ndash;    <h5 class="card-title">Success card title</h5>&ndash;&gt;-->
+<!--    <p class="card-text" align="left" style="text-indent: 50px">Enter a world in 2090 where all systems have been digitalized. The government is training their workforce to combat hackers through a social deduction game. Connect together with friends and family on the application and score as many points as possible using abilities and deception.</p>-->
+<!--  </div>-->
+<!--</div></center>-->
 
-<div class="row row-cols-1 row-cols-md-2 g-4" style="padding: 8px">
-  <div class="col">
-    <div class="card">
-      <div class="card-header">Mobile Application</div>
-      <div class="card-body">
-      <h6 class="card-title">Features</h6>
+<!--<div class="row row-cols-1 row-cols-md-2 g-4" style="padding: 8px">-->
+<!--  <div class="col">-->
+<!--    <div class="card">-->
+<!--      <div class="card-header">Mobile Application</div>-->
+<!--      <div class="card-body">-->
+<!--      <h6 class="card-title">Features</h6>-->
+<!--      <ul>-->
+<!--          <li>No cheating or any requirement to close your eyes.</li>-->
+<!--          <li>No moving pieces that can be damaged or lost.</li>-->
+<!--          <li>Full automation so you can enjoy more games and prevent human error.</li>-->
+<!--      </ul>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="col">-->
+<!--    <div class="card">-->
+<!--&lt;!&ndash;      <img src="..." class="card-img-top" alt="...">&ndash;&gt;-->
+<!--      <div class="card-header">Point System</div>-->
+<!--      <div class="card-body">-->
+<!--      <h6 class="card-title">Features</h6>-->
+<!--      <ul>-->
+<!--          <li>Every action you make matters and follows you to the next match.</li>-->
+<!--          <li>Punishes only the player that plays incorrectly.</li>-->
+<!--          <li>Side objectives exist to score more points and keep each match from being redundant.</li>-->
+<!--      </ul>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!-- <div class="col">-->
+<!--    <div class="card">-->
+<!--&lt;!&ndash;      <img src="..." class="card-img-top" alt="...">&ndash;&gt;-->
+<!--      <div class="card-header">Probability</div>-->
+<!--      <div class="card-body">-->
+<!--      <h6 class="card-title">Features</h6>-->
+<!--      <ul>-->
+<!--          <li>Players are provided logs which may or may not be accurate to retain uncertainty throughout the game.</li>-->
+<!--          <li>There is no player elimination which means no one has to sit out of the game until the next match.</li>-->
+<!--          <li>Hackers are not so easily uncovered and can hide behind probability to appear credible.</li>-->
+<!--      </ul>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!-- <div class="col">-->
+<!--    <div class="card">-->
+<!--&lt;!&ndash;      <img src="..." class="card-img-top" alt="...">&ndash;&gt;-->
+<!--      <div class="card-header">Actions</div>-->
+<!--      <div class="card-body">-->
+<!--      <h6 class="card-title">Features</h6>-->
+<!--      <ul>-->
+<!--          <li>Many unique actions that would be impossible to preform if using physical cards.</li>-->
+<!--          <li>More actions can always be added and previous ones can be properly balanced overtime.</li>-->
+<!--          <li>Preform actions from the comfort of your own phone with no intrusion or sharing of your device.</li>-->
+<!--      </ul>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--<div align="center">-->
+<!--    <nav>-->
+<!--      <div class="nav nav-tabs" id="nav-tab" role="tablist">-->
+<!--        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>-->
+<!--        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>-->
+<!--        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>-->
+<!--      </div>-->
+<!--    </nav>-->
+<!--    <div class="tab-content" id="nav-tabContent">-->
+<!--      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">-->
+<!--          <ul>-->
+<!--              <li>Many unique actions that would be impossible to preform if using physical cards.</li>-->
+<!--              <li>More actions can always be added and previous ones can be properly balanced overtime.</li>-->
+<!--              <li>Preform actions from the comfort of your own phone with no intrusion or sharing of your device.</li>-->
+<!--          </ul>-->
+<!--      </div>-->
+<!--      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>-->
+<!--      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div class="d-flex align-items-start" id="side-navigation">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="nav-link active" id="v-pills-about-tab" data-bs-toggle="pill" data-bs-target="#v-pills-about" type="button" role="tab" aria-controls="v-pills-about" aria-selected="true">About</button>
+    <button class="nav-link" id="v-pills-mobile-app-tab" data-bs-toggle="pill" data-bs-target="#v-pills-mobile-app" type="button" role="tab" aria-controls="v-pills-mobile-app" aria-selected="false">Mobile App</button>
+    <button class="nav-link" id="v-pills-point-system-tab" data-bs-toggle="pill" data-bs-target="#v-pills-point-system" type="button" role="tab" aria-controls="v-pills-point-system" aria-selected="false">Point System</button>
+    <button class="nav-link" id="v-pills-actions-tab" data-bs-toggle="pill" data-bs-target="#v-pills-actions" type="button" role="tab" aria-controls="v-pills-actions" aria-selected="false">Actions</button>
+  </div>
+  <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab"><p class="card-text" align="left" style="text-indent: 50px">Enter a world in 2090 where all systems have been digitalized. The government is training their workforce to combat hackers through a social deduction game. Connect together with friends and family on the application and score as many points as possible using abilities and deception.</p></div>
+    <div class="tab-pane fade" id="v-pills-mobile-app" role="tabpanel" aria-labelledby="v-pills-mobile-app-tab">
       <ul>
           <li>No cheating or any requirement to close your eyes.</li>
           <li>No moving pieces that can be damaged or lost.</li>
           <li>Full automation so you can enjoy more games and prevent human error.</li>
       </ul>
-      </div>
     </div>
-  </div>
-  <div class="col">
-    <div class="card">
-<!--      <img src="..." class="card-img-top" alt="...">-->
-      <div class="card-header">Point System</div>
-      <div class="card-body">
-      <h6 class="card-title">Features</h6>
+    <div class="tab-pane fade" id="v-pills-point-system" role="tabpanel" aria-labelledby="v-pills-point-system-tab">
       <ul>
           <li>Every action you make matters and follows you to the next match.</li>
           <li>Punishes only the player that plays incorrectly.</li>
           <li>Side objectives exist to score more points and keep each match from being redundant.</li>
       </ul>
-      </div>
     </div>
-  </div>
- <div class="col">
-    <div class="card">
-<!--      <img src="..." class="card-img-top" alt="...">-->
-      <div class="card-header">Probability</div>
-      <div class="card-body">
-      <h6 class="card-title">Features</h6>
-      <ul>
-          <li>Players are provided logs which may or may not be accurate to retain uncertainty throughout the game.</li>
-          <li>There is no player elimination which means no one has to sit out of the game until the next match.</li>
-          <li>Hackers are not so easily uncovered and can hide behind probability to appear credible.</li>
-      </ul>
-      </div>
-    </div>
-  </div>
- <div class="col">
-    <div class="card">
-<!--      <img src="..." class="card-img-top" alt="...">-->
-      <div class="card-header">Actions</div>
-      <div class="card-body">
-      <h6 class="card-title">Features</h6>
-      <ul>
-          <li>Many unique actions that would be impossible to preform if using physical cards.</li>
-          <li>More actions can always be added and previous ones can be properly balanced overtime.</li>
-          <li>Preform actions from the comfort of your own phone with no intrusion or sharing of your device.</li>
-      </ul>
-      </div>
-    </div>
-  </div>
+    <div class="tab-pane fade" id="v-pills-actions" role="tabpanel" aria-labelledby="v-pills-actions-tab" style="margin: 10px">
 
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--      <ul>-->
+<!--          <li>Many unique actions that would be impossible to preform if using physical cards.</li>-->
+<!--          <li>More actions can always be added and previous ones can be properly balanced overtime.</li>-->
+<!--          <li>Preform actions from the comfort of your own phone with no intrusion or sharing of your device.</li>-->
+<!--      </ul>-->
+    </div>
+  </div>
+</div>
 {%  endblock %}
