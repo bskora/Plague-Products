@@ -1,0 +1,22 @@
+// Include any default variable overrides here (though functions won't be available)
+$card-color: #FF0000;
+
+$nav-pills-link-active-bg: #43a047;
+
+$carousel-indicator-active-bg: #43a047;
+
+$nav-link-color: #000000;
+$nav-link-hover-color: #FFFFFF;
+
+$carousel-control-color: #000000;
+
+@import "../bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+#pills-tab {
+    background: #484848;
+    }
+
+html, body {
+    background-color: #c7c7c7;
+}

@@ -98,72 +98,179 @@
 <!--    </div>-->
 <!--</div>-->
 
-<div class="d-flex align-items-start" id="side-navigation">
-  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <button class="nav-link active" id="v-pills-about-tab" data-bs-toggle="pill" data-bs-target="#v-pills-about" type="button" role="tab" aria-controls="v-pills-about" aria-selected="true">About</button>
-    <button class="nav-link" id="v-pills-mobile-app-tab" data-bs-toggle="pill" data-bs-target="#v-pills-mobile-app" type="button" role="tab" aria-controls="v-pills-mobile-app" aria-selected="false">Mobile App</button>
-    <button class="nav-link" id="v-pills-point-system-tab" data-bs-toggle="pill" data-bs-target="#v-pills-point-system" type="button" role="tab" aria-controls="v-pills-point-system" aria-selected="false">Point System</button>
-    <button class="nav-link" id="v-pills-actions-tab" data-bs-toggle="pill" data-bs-target="#v-pills-actions" type="button" role="tab" aria-controls="v-pills-actions" aria-selected="false">Actions</button>
-  </div>
-  <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab"><p class="card-text" align="left" style="text-indent: 50px">Enter a world in 2090 where all systems have been digitalized. The government is training their workforce to combat hackers through a social deduction game. Connect together with friends and family on the application and score as many points as possible using abilities and deception.</p></div>
-    <div class="tab-pane fade" id="v-pills-mobile-app" role="tabpanel" aria-labelledby="v-pills-mobile-app-tab">
-      <ul>
-          <li>No cheating or any requirement to close your eyes.</li>
-          <li>No moving pieces that can be damaged or lost.</li>
-          <li>Full automation so you can enjoy more games and prevent human error.</li>
-      </ul>
-    </div>
-    <div class="tab-pane fade" id="v-pills-point-system" role="tabpanel" aria-labelledby="v-pills-point-system-tab">
-      <ul>
-          <li>Every action you make matters and follows you to the next match.</li>
-          <li>Punishes only the player that plays incorrectly.</li>
-          <li>Side objectives exist to score more points and keep each match from being redundant.</li>
-      </ul>
-    </div>
-    <div class="tab-pane fade" id="v-pills-actions" role="tabpanel" aria-labelledby="v-pills-actions-tab" style="margin: 10px">
+<!--Carousel-->
 
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a short card.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="width: 35%; margin: auto">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'main/Logo-01.png' %}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'main/Logo-01.png' %}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'main/Logo-01.png' %}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--Features-->
+
+<ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-about-tab" data-bs-toggle="pill" data-bs-target="#pills-about" type="button" role="tab" aria-controls="pills-about" aria-selected="true">About</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-mobile-tab" data-bs-toggle="pill" data-bs-target="#pills-mobile" type="button" role="tab" aria-controls="pills-mobile" aria-selected="false">Mobile</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-point-tab" data-bs-toggle="pill" data-bs-target="#pills-point" type="button" role="tab" aria-controls="pills-point" aria-selected="false">Point System</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-action-tab" data-bs-toggle="pill" data-bs-target="#pills-action" type="button" role="tab" aria-controls="pills-action" aria-selected="false">Actions</button>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab">
+    <p>Enter a world in 2090 where all systems have been digitalized. The government is training their workforce to combat hackers through a social deduction game. Connect together with friends and family on the application and score as many points as possible using abilities and deception.</p>
+  </div>
+  <div class="tab-pane fade" id="pills-mobile" role="tabpanel" aria-labelledby="pills-mobile-tab">
+    <ul>
+      <li>No cheating or any requirement to close your eyes.</li>
+      <li>No moving pieces that can be damaged or lost.</li>
+      <li>Full automation so you can enjoy more games and prevent human error.</li>
+    </ul>
+  </div>
+  <div class="tab-pane fade" id="pills-point" role="tabpanel" aria-labelledby="pills-point-tab">
+    <ul>
+        <li>Every action you make matters and follows you to the next match.</li>
+        <li>Punishes only the player that plays incorrectly.</li>
+        <li>Side objectives exist to score more points and keep each match from being redundant.</li>
+    </ul>
+  </div>
+  <div class="tab-pane fade" id="pills-action" role="tabpanel" aria-labelledby="pills-action-tab">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
         </div>
       </div>
-
-<!--      <ul>-->
-<!--          <li>Many unique actions that would be impossible to preform if using physical cards.</li>-->
-<!--          <li>More actions can always be added and previous ones can be properly balanced overtime.</li>-->
-<!--          <li>Preform actions from the comfort of your own phone with no intrusion or sharing of your device.</li>-->
-<!--      </ul>-->
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a short card.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+
+
+
+
+<!--Features-->
+
+<!--<div class="d-flex align-items-start" id="side-navigation">-->
+<!--  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">-->
+<!--    <button class="nav-link active" id="v-pills-about-tab" data-bs-toggle="pill" data-bs-target="#v-pills-about" type="button" role="tab" aria-controls="v-pills-about" aria-selected="true">About</button>-->
+<!--    <button class="nav-link" id="v-pills-mobile-app-tab" data-bs-toggle="pill" data-bs-target="#v-pills-mobile-app" type="button" role="tab" aria-controls="v-pills-mobile-app" aria-selected="false">Mobile App</button>-->
+<!--    <button class="nav-link" id="v-pills-point-system-tab" data-bs-toggle="pill" data-bs-target="#v-pills-point-system" type="button" role="tab" aria-controls="v-pills-point-system" aria-selected="false">Point System</button>-->
+<!--    <button class="nav-link" id="v-pills-actions-tab" data-bs-toggle="pill" data-bs-target="#v-pills-actions" type="button" role="tab" aria-controls="v-pills-actions" aria-selected="false">Actions</button>-->
+<!--  </div>-->
+<!--  <div class="tab-content" id="v-pills-tabContent">-->
+<!--    <div class="tab-pane fade show active" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab"><p class="card-text" align="left" style="text-indent: 50px">Enter a world in 2090 where all systems have been digitalized. The government is training their workforce to combat hackers through a social deduction game. Connect together with friends and family on the application and score as many points as possible using abilities and deception.</p></div>-->
+<!--    <div class="tab-pane fade" id="v-pills-mobile-app" role="tabpanel" aria-labelledby="v-pills-mobile-app-tab">-->
+<!--      <ul>-->
+<!--          <li>No cheating or any requirement to close your eyes.</li>-->
+<!--          <li>No moving pieces that can be damaged or lost.</li>-->
+<!--          <li>Full automation so you can enjoy more games and prevent human error.</li>-->
+<!--      </ul>-->
+<!--    </div>-->
+<!--    <div class="tab-pane fade" id="v-pills-point-system" role="tabpanel" aria-labelledby="v-pills-point-system-tab">-->
+<!--      <ul>-->
+<!--          <li>Every action you make matters and follows you to the next match.</li>-->
+<!--          <li>Punishes only the player that plays incorrectly.</li>-->
+<!--          <li>Side objectives exist to score more points and keep each match from being redundant.</li>-->
+<!--      </ul>-->
+<!--    </div>-->
+<!--    <div class="tab-pane fade" id="v-pills-actions" role="tabpanel" aria-labelledby="v-pills-actions-tab" style="margin: 10px">-->
+
+<!--      <div class="row row-cols-1 row-cols-md-2 g-4">-->
+<!--        <div class="col">-->
+<!--          <div class="card h-100">-->
+<!--            <div class="card-body">-->
+<!--              <h5 class="card-title">Card title</h5>-->
+<!--              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="col">-->
+<!--          <div class="card h-100">-->
+<!--            <div class="card-body">-->
+<!--              <h5 class="card-title">Card title</h5>-->
+<!--              <p class="card-text">This is a short card.</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="col">-->
+<!--          <div class="card h-100">-->
+<!--            <div class="card-body">-->
+<!--              <h5 class="card-title">Card title</h5>-->
+<!--              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="col">-->
+<!--          <div class="card h-100">-->
+<!--            <div class="card-body">-->
+<!--              <h5 class="card-title">Card title</h5>-->
+<!--              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--&lt;!&ndash;      <ul>&ndash;&gt;-->
+<!--&lt;!&ndash;          <li>Many unique actions that would be impossible to preform if using physical cards.</li>&ndash;&gt;-->
+<!--&lt;!&ndash;          <li>More actions can always be added and previous ones can be properly balanced overtime.</li>&ndash;&gt;-->
+<!--&lt;!&ndash;          <li>Preform actions from the comfort of your own phone with no intrusion or sharing of your device.</li>&ndash;&gt;-->
+<!--&lt;!&ndash;      </ul>&ndash;&gt;-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
 {%  endblock %}
