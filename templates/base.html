@@ -19,7 +19,7 @@
     </head>
     <body>
 
-      <header class="p-3 bg-dark text-white">
+      <header class="p-2 bg-dark text-white">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a href="/" class="nav-link text-secondary">
@@ -27,13 +27,24 @@
             </a>
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li>
+                  {% block activenews %}
+                  <a class="nav-link text-secondary text-uppercase fw-bolder" href="/news/">
+                      News
+                  </a>
+                  {%  endblock %}
+              </li>
+              <li>
                   {% block activecode %}
-                  <a class="nav-link text-secondary" href="/code.net/">Code.Net</a>
+                  <a class="nav-link text-secondary text-uppercase fw-bolder" href="/code.net/">
+                      Code.Net
+                  </a>
                   {%  endblock %}
               </li>
               <li>
                   {% block activewilderness %}
-                  <a class="nav-link text-secondary" href="/darkwilderness/">Dark Wilderness</a>
+                  <a class="nav-link text-secondary text-uppercase fw-bolder" href="/darkwilderness/">
+                      Dark Wilderness
+                  </a>
                   {%  endblock %}
               </li>
             </ul>
