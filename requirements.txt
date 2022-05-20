@@ -3,3 +3,4 @@ django
 django-heroku
 django_sass
 django_ckeditor
+whitenoise
