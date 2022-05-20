@@ -2,4 +2,4 @@ gunicorn
 django
 django-heroku
 django_sass
-ckeditor
+django_ckeditor
