@@ -21,31 +21,33 @@
       <header class="p-2 bg-dark text-white">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="nav-link text-secondary">
-              <img src="{% static 'main/images/Logo-white.png' %}" alt="gameplay image 1">
-            </a>
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li>
+                <li>
+                    <a href="/" class="nav-link">
+                      <img src="{% static 'main/images/Logo-white.png' %}" alt="gameplay image 1">
+                    </a>
+                </li>
+                <li>
                   {% block activenews %}
                   <a class="nav-link text-secondary text-uppercase fw-bolder" href="/news/">
                       News
                   </a>
                   {%  endblock %}
-              </li>
-              <li>
+                </li>
+                <li>
                   {% block activecode %}
                   <a class="nav-link text-secondary text-uppercase fw-bolder" href="/code.net/">
                       Code.Net
                   </a>
                   {%  endblock %}
-              </li>
-              <li>
+                </li>
+                <li>
                   {% block activewilderness %}
                   <a class="nav-link text-secondary text-uppercase fw-bolder" href="/darkwilderness/">
                       Dark Wilderness
                   </a>
                   {%  endblock %}
-              </li>
+                </li>
             </ul>
           </div>
         </div>
