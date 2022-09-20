@@ -13,6 +13,7 @@ import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
 from pathlib import Path
 import environ
+import dj_database_url
 import os
 
 sentry_sdk.init(
@@ -108,6 +109,12 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES['default'] = dj_database_url.parse(
+#     'postgres://postgres:ed5a522528373fde7af133f125eb41b7@dokku-postgres-lollipop:5432/lollipop')
+
+db_from_env = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
