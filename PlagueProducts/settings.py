@@ -110,13 +110,10 @@ DATABASES = {
     }
 }
 
-# DATABASES['default'] = dj_database_url.parse(
-#     'postgres://postgres:ed5a522528373fde7af133f125eb41b7@dokku-postgres-lollipop:5432/lollipop')
-
+DATABASES['default'] = dj_database_url.parse(
+    'postgres://postgres:ed5a522528373fde7af133f125eb41b7@dokku-postgres-lollipop:5432/lollipop')
 #DATABASE_URL = 'postgres://postgres:ed5a522528373fde7af133f125eb41b7@dokku-postgres-lollipop:5432/lollipop'
-
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
+print(DATABASES)
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
