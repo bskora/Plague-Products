@@ -6,3 +6,4 @@ django_ckeditor
 whitenoise
 django-environ
 sentry-sdk
+dj-database-url
