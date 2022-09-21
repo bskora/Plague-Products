@@ -102,22 +102,38 @@ WSGI_APPLICATION = 'PlagueProducts.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-dbHost = ""
-if platform.system() == "Linux":
-    dbHost = "dokku-postgres-lollipop"
-else:
-    dbHost = "localhost"
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'lollipop',
-        'USER': 'postgres',
-        'PASSWORD': env('DATABASE_PASSWORD', default=str(os.getenv('DATABASE_PASS'))),
-        'HOST': dbHost,
-        'PORT': '5432',
+if os.environ.get('DATABASE_URL', ''):
+    DATABASES = {
+        'default': dj_database_url.config()
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'lollipop',
+            'USER': 'postgres',
+            'PASSWORD': env('DATABASE_PASSWORD', default=str(os.getenv('DATABASE_PASS'))),
+            'HOST': '127.0.0.1',
+            'PORT': '5432',
+        }
+    }
+
+# dbHost = ""
+# if platform.system() == "Linux":
+#     dbHost = "dokku-postgres-lollipop"
+# else:
+#     dbHost = "localhost"
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'lollipop',
+#         'USER': 'postgres',
+#         'PASSWORD': env('DATABASE_PASSWORD', default=str(os.getenv('DATABASE_PASS'))),
+#         'HOST': dbHost,
+#         'PORT': '5432',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
