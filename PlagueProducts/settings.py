@@ -15,6 +15,7 @@ from pathlib import Path
 import environ
 import os
 import platform
+import dj_database_url
 
 sentry_sdk.init(
     dsn="https://52eccb809e0e4cb0bd52d9285923a329@o1255756.ingest.sentry.io/6424413",
@@ -109,7 +110,7 @@ else:
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'lollipop',
         'USER': 'postgres',
         'PASSWORD': env('DATABASE_PASSWORD', default=str(os.getenv('DATABASE_PASS'))),
