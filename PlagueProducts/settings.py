@@ -103,7 +103,7 @@ WSGI_APPLICATION = 'PlagueProducts.wsgi.application'
 
 dbHost = ""
 if platform.system() == "Linux":
-    dbHost = "db"
+    dbHost = "dokku-postgres-lollipop"
 else:
     dbHost = "localhost"
 
