@@ -13,8 +13,8 @@ import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
 from pathlib import Path
 import environ
-import dj_database_url
 import os
+import platform
 
 sentry_sdk.init(
     dsn="https://52eccb809e0e4cb0bd52d9285923a329@o1255756.ingest.sentry.io/6424413",
@@ -29,7 +29,6 @@ sentry_sdk.init(
     # django.contrib.auth) you may enable sending PII data.
     send_default_pii=True
 )
-
 
 # Set the project base directory
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -99,19 +98,25 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'PlagueProducts.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+dbHost = ""
+if platform.system() == "Linux":
+    dbHost = "db"
+else:
+    dbHost = "localhost"
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'lollipop',
+        'USER': 'postgres',
+        'PASSWORD': env('DATABASE_PASSWORD', default=str(os.getenv('DATABASE_PASS'))),
+        'HOST': dbHost,
+        'PORT': '5432',
     }
 }
-
-DATABASES['default'] = dj_database_url.parse(
-    'postgres://postgres:ed5a522528373fde7af133f125eb41b7@dokku-postgres-lollipop:5432/lollipop')
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
