@@ -1,0 +1,8 @@
+gunicorn
+django
+django-heroku
+django_sass
+django_ckeditor
+whitenoise
+django-environ
+sentry-sdk

@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Potential completion of postgres database." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="PlagueProducts/invalid/Django" />
+    </ignored-facets>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26kUU33RpaeFCfZ2Vmjh02xGfx9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/treni/Desktop/Programs/Dark Wilderness&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\templates" />
+      <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\main\static\main\images" />
+      <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\templates\features" />
+      <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\main\static\main\scss" />
+      <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\main\static\main\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts" />
+      <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\main\static\main" />
+      <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\main" />
+      <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\main\database" />
+      <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\main\static\main\bootstrap" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Django">
+    <configuration name="Django" type="PythonConfigurationType" factoryName="Python">
+      <module name="PlagueProducts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\treni\Desktop\Programs\PlagueProducts\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver 0.0.0.0:8000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PlagueProducts" type="Python.DjangoServer" factoryName="Django server">
+      <module name="PlagueProducts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="PlagueProducts.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Django" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="" />
+      <created>1647967090884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647967090884</updated>
+      <workItem from="1647967105875" duration="7862000" />
+      <workItem from="1647988848528" duration="463000" />
+      <workItem from="1648049911082" duration="16090000" />
+      <workItem from="1648080214016" duration="109000" />
+      <workItem from="1648080634924" duration="104000" />
+      <workItem from="1648129227505" duration="99000" />
+    </task>
+    <task id="LOCAL-00024" summary="test for deployment">
+      <created>1653011267506</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1653011267506</updated>
+    </task>
+    <task id="LOCAL-00025" summary="test for deployment">
+      <created>1653011400327</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1653011400327</updated>
+    </task>
+    <task id="LOCAL-00026" summary="test for deployment">
+      <created>1653012833887</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1653012833887</updated>
+    </task>
+    <task id="LOCAL-00027" summary="test for deployment">
+      <created>1653013644444</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1653013644444</updated>
+    </task>
+    <task id="LOCAL-00028" summary="test for deployment">
+      <created>1653013895795</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1653013895795</updated>
+    </task>
+    <task id="LOCAL-00029" summary="test for deployment">
+      <created>1653014916427</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1653014916427</updated>
+    </task>
+    <task id="LOCAL-00030" summary="test for deployment">
+      <created>1653015108942</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1653015108942</updated>
+    </task>
+    <task id="LOCAL-00031" summary="test for deployment">
+      <created>1653016561295</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1653016561295</updated>
+    </task>
+    <task id="LOCAL-00032" summary="test for deployment">
+      <created>1653016964102</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1653016964102</updated>
+    </task>
+    <task id="LOCAL-00033" summary="test for deployment">
+      <created>1653017181867</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1653017181867</updated>
+    </task>
+    <task id="LOCAL-00034" summary="test for deployment">
+      <created>1653017464295</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1653017464295</updated>
+    </task>
+    <task id="LOCAL-00035" summary="test for deployment">
+      <created>1653017533669</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1653017533669</updated>
+    </task>
+    <task id="LOCAL-00036" summary="test for deployment">
+      <created>1653018865352</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1653018865352</updated>
+    </task>
+    <task id="LOCAL-00037" summary="test for deployment">
+      <created>1653019051931</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1653019051931</updated>
+    </task>
+    <task id="LOCAL-00038" summary="test for deployment">
+      <created>1653050302438</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1653050302438</updated>
+    </task>
+    <task id="LOCAL-00039" summary="test for deployment">
+      <created>1653051053656</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1653051053656</updated>
+    </task>
+    <task id="LOCAL-00040" summary="test for deployment">
+      <created>1653059253748</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1653059253748</updated>
+    </task>
+    <task id="LOCAL-00041" summary="test for deployment">
+      <created>1653074412132</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1653074412132</updated>
+    </task>
+    <task id="LOCAL-00042" summary="test for deployment">
+      <created>1653078649130</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1653078649130</updated>
+    </task>
+    <task id="LOCAL-00043" summary="test for deployment">
+      <created>1653078724014</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1653078724014</updated>
+    </task>
+    <task id="LOCAL-00044" summary="test for deployment">
+      <created>1653079361022</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1653079361022</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fixed container, testing auto deployment">
+      <created>1653082579223</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1653082579223</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Updated to python 3.10. Updated bootstrap to 5.2.0. Fixed color in news card.">
+      <created>1653325163269</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1653325163269</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Implemented more parts of the bootstrap update. Spaced out logo in header.">
+      <created>1653338882793</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1653338882793</updated>
+    </task>
+    <task id="LOCAL-00048" summary="updated boostrap version">
+      <created>1661607823766</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1661607823766</updated>
+    </task>
+    <task id="LOCAL-00049" summary="updated boostrap version">
+      <created>1661608399187</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1661608399187</updated>
+    </task>
+    <task id="LOCAL-00050" summary="attempt to fix database replacement">
+      <created>1663633223025</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1663633223025</updated>
+    </task>
+    <task id="LOCAL-00051" summary="attempt to fix database">
+      <created>1663678569895</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1663678569896</updated>
+    </task>
+    <task id="LOCAL-00052" summary="attempt to fix database">
+      <created>1663679671412</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1663679671412</updated>
+    </task>
+    <task id="LOCAL-00053" summary="attempt to fix database">
+      <created>1663679778076</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1663679778076</updated>
+    </task>
+    <task id="LOCAL-00054" summary="attempt to fix database">
+      <created>1663680820750</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1663680820751</updated>
+    </task>
+    <task id="LOCAL-00055" summary="attempt to fix database">
+      <created>1663680919988</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1663680919988</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Test to integrate postgres database.">
+      <created>1663696987366</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1663696987366</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Test to integrate postgres database.">
+      <created>1663698458507</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1663698458507</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Test to integrate postgres database.">
+      <created>1663698541601</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1663698541601</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Test to integrate postgres database.">
+      <created>1663698745461</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1663698745461</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Test to integrate postgres database.">
+      <created>1663698871212</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1663698871212</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Test to integrate postgres database.">
+      <created>1663702134546</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1663702134546</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Test to integrate postgres database.">
+      <created>1663702621952</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1663702621952</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Test to integrate postgres database.">
+      <created>1663704982542</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1663704982543</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Test to integrate postgres database.">
+      <created>1663705007528</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1663705007528</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Test to integrate postgres database.">
+      <created>1663705655140</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1663705655140</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Test to integrate postgres database.">
+      <created>1663718622952</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1663718622952</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Test to integrate postgres database.">
+      <created>1663719263375</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1663719263375</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Test to integrate postgres database.">
+      <created>1663720087878</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1663720087878</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Test to integrate postgres database.">
+      <created>1663720392311</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1663720392311</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Test to integrate postgres database.">
+      <created>1663725153548</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1663725153548</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Potential completion of postgres database.">
+      <created>1663728000798</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1663728000798</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Potential completion of postgres database.">
+      <created>1663728467504</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1663728467504</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="379450a2-0e43-44f5-8340-2cdf08dedc13">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/treni/Desktop/Programs/PlagueProducts/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="ce1cefef-e961-4e4a-ade5-b146b83df030">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="379450a2-0e43-44f5-8340-2cdf08dedc13" value="TOOL_WINDOW" />
+        <entry key="ce1cefef-e961-4e4a-ade5-b146b83df030" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created website." />
+    <MESSAGE value="Added features to code.net" />
+    <MESSAGE value="Loads of changes, functionality, added css." />
+    <MESSAGE value="Implemented Sass, updated layouts." />
+    <MESSAGE value="Completed Code.Net layout." />
+    <MESSAGE value="Created placeholders for the home and Dark Wilderness sections. Added footer." />
+    <MESSAGE value="Home section added." />
+    <MESSAGE value="Many improvements to layout and designs. Added images. Improved footer." />
+    <MESSAGE value="Added news section, fully functional using the database. Capitalized main categories on the website." />
+    <MESSAGE value="Fixed vulnerabilities." />
+    <MESSAGE value="Improved News Layout" />
+    <MESSAGE value="test for deployment" />
+    <MESSAGE value="fixed container, testing auto deployment" />
+    <MESSAGE value="Updated to python 3.10. Updated bootstrap to 5.2.0. Fixed color in news card." />
+    <MESSAGE value="Implemented more parts of the bootstrap update. Spaced out logo in header." />
+    <MESSAGE value="updated boostrap version" />
+    <MESSAGE value="attempt to fix database replacement" />
+    <MESSAGE value="attempt to fix database" />
+    <MESSAGE value="Test to integrate postgres database." />
+    <MESSAGE value="Potential completion of postgres database." />
+    <option name="LAST_COMMIT_MESSAGE" value="Potential completion of postgres database." />
+  </component>
+</project>

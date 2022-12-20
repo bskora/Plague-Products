@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Plague Products - News
+{% endblock %}
+
+{% block activenews %}
+    <a class="nav-link active text-secondary text-uppercase fw-bolder text-white" href="/news/">
+        News
+    </a>
+{%  endblock %}
+
+{% block maininfo %}
+<div class="container px-4 py-5" id="features">
+  <h2 class="pb-2 border-bottom text-uppercase fw-bolder">Recent News</h2>
+    <div class="row row-cols-1 row-cols-md-1 py-5">
+      {% for post in object_list %}
+      <div class="col">
+        <div class="card bg-dark mb-4">
+          <div class="card-header text-white">
+            <p class="card-text mb-1"><small class="text-white-50">Posted {{ post.date }}</small></p>
+            <h5 class="card-title">{{ post.title }}</h5>
+          </div>
+          <div class="card-body bg-light">
+              {{ post.body | safe }}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+</div>
+
+{%  endblock %}
