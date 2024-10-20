@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Fixing layout for official deployment">
       <change beforePath="$PROJECT_DIR$/main/static/main/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -493,7 +492,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
