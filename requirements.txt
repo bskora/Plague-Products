@@ -11,3 +11,4 @@ libsass
 rjsmin
 rcssmin
 django-appconf
+Pillow
