@@ -10,3 +10,4 @@ django-compressor
 libsass
 rjsmin
 rcssmin
+django-appconf
