@@ -4,13 +4,111 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Improvements/Fixes/Updates&#10;- Updated Bootstrap to latest version.&#10;- Added conditional formatting changes for links.&#10;- Added SVG image support.&#10;- SCSS compiling is now done automatically.&#10;- Fixed news section bottom borders not being solid.&#10;- Replaced Dark Wilderness with Enduring Wilderness on the home screen.&#10;- Fixed blurry logo icon at the top left.&#10;- Changed twitter logo at the bottom right to the x logo.">
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Dark Wilderness has been replaced by Enduring Wilderness.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_containers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_maps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_offcanvas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_placeholders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_variables-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/bootstrap-utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/forms/_floating-labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/forms/_form-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/forms/_form-control.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/forms/_form-range.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/forms/_form-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/forms/_validation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/helpers/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/helpers/_color-bg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/helpers/_colored-links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/helpers/_focus-ring.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/helpers/_icon-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/helpers/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/helpers/_ratio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/helpers/_stacks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/helpers/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/helpers/_text-truncation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/helpers/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/helpers/_vr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_backdrop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_color-mode.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_color-scheme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_table-variants.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/mixins/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/tests/jasmine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/tests/mixins/_auto-import-of-variables-dark.test.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/tests/mixins/_color-modes.test.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/tests/mixins/_media-query-color-mode-full.test.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/tests/mixins/_utilities.test.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/tests/sass-true/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/tests/sass-true/runner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/tests/utilities/_api.test.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/utilities/_api.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/darkwilderness.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/enduringwilderness.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlagueProducts/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlagueProducts/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -497,7 +595,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,6 +707,7 @@
     <MESSAGE value="changed enduring wilderness, testing if pushing update to server" />
     <MESSAGE value="- Added conditional formatting changes for links.&#10;- Added SVG image support.&#10;- SCSS compiling is now done automatically.&#10;- Fixed news section bottom borders not being solid.&#10;- Replaced Dark Wilderness with Enduring Wilderness on the home screen.&#10;- Fixed blurry logo icon at the top left.&#10;- Changed twitter logo at the bottom right to the x logo." />
     <MESSAGE value="Improvements/Fixes/Updates&#10;- Updated Bootstrap to latest version.&#10;- Added conditional formatting changes for links.&#10;- Added SVG image support.&#10;- SCSS compiling is now done automatically.&#10;- Fixed news section bottom borders not being solid.&#10;- Replaced Dark Wilderness with Enduring Wilderness on the home screen.&#10;- Fixed blurry logo icon at the top left.&#10;- Changed twitter logo at the bottom right to the x logo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Improvements/Fixes/Updates&#10;- Updated Bootstrap to latest version.&#10;- Added conditional formatting changes for links.&#10;- Added SVG image support.&#10;- SCSS compiling is now done automatically.&#10;- Fixed news section bottom borders not being solid.&#10;- Replaced Dark Wilderness with Enduring Wilderness on the home screen.&#10;- Fixed blurry logo icon at the top left.&#10;- Changed twitter logo at the bottom right to the x logo." />
+    <MESSAGE value="Dark Wilderness has been replaced by Enduring Wilderness." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dark Wilderness has been replaced by Enduring Wilderness." />
   </component>
 </project>
