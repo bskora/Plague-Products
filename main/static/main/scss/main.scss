@@ -28,6 +28,12 @@ $carousel-control-next-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w
     color: white;
 }
 
+/* Ensure the <svg> and <path> elements inside the <a> tag take the correct color */
+a.logo-svg svg path {
+  fill: currentColor;
+}
+
+
 a.logo-svg,
 a.logo-svg:visited,
 a.logo-svg:focus,
