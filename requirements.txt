@@ -8,3 +8,5 @@ sentry-sdk
 django-inline-svg
 django-compressor
 libsass
+rjsmin
+rcssmin
