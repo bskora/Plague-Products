@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Fixing layout for official deployment">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/main/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/main/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PlagueProducts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PlagueProducts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlagueProducts/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlagueProducts/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,17 +62,17 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Previous Computer/Programs/PlagueProducts/main/static/svg&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Previous_Computer/Programs/PlagueProducts/main/static/main/scss&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Previous_Computer\Programs\PlagueProducts\main\static\main\scss" />
       <recent name="D:\Previous Computer\Programs\PlagueProducts\main\static\svg" />
       <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\templates" />
       <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\main\static\main\images" />
       <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\templates\features" />
-      <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\main\static\main\scss" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Previous Computer\Programs\PlagueProducts\main\static\svg" />
@@ -492,7 +498,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

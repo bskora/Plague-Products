@@ -1,14 +1,11 @@
 <!doctype html>
 <html lang="en">
     <head>
-        {% load compress static svg %}
         {% load svg %}
-        {% compress css %}
 
         <!-- CSS -->
         {% load static %}
-        <link rel="stylesheet" type="text/x-scss" href="{% static 'main/scss/main.scss' %}">
-        {% endcompress %}
+        <link rel="stylesheet" type="text/css" href="{% static 'main/css/styles.css' %}">
 
         <!-- BOOTSTRAP MOBILE SUPPORT -->
         <meta charset="utf-8">
@@ -28,18 +25,18 @@
             <div class="d-flex flex-wrap align-items-center justify-content-between">
               <ul class="nav col-12 col-lg-auto mb-2 mb-md-0 align-items-center">
                 <li class="d-flex align-items-center">
-                <a href="/" class="nav-link" style="margin-right: 10px">
-                    <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo" fill="currentColor">
-                        {% svg 'logo' %}
-                    </svg>
-                </a>
+<!--                <a href="/" class="nav-link" style="margin-right: 10px">-->
+<!--                    <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo" fill="currentColor">-->
+<!--                        {% svg 'logo' %}-->
+<!--                    </svg>-->
+<!--                </a>-->
 
 
 
 
-<!--                  <a href="/" class="nav-link logo-svg" style="margin-right: 10px">-->
-<!--                    {% svg 'logo' %}-->
-<!--                  </a>-->
+                  <a href="/" class="nav-link logo-svg" style="margin-right: 10px">
+                    {% svg 'logo' %}
+                  </a>
                 </li>
                 <li>
                   <a class="nav-link {% if request.path == '/news/' %} active text-white {% else %} text-secondary {% endif %} text-uppercase fw-bolder"

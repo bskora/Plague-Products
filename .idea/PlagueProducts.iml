@@ -6,7 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/main/static/main/css" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.13 (PlagueProducts)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.10 (PlagueProducts)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
