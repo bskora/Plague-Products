@@ -5,7 +5,7 @@ from main.models import Post
 # Create your views here.
 class NewsView(ListView):
     model = Post
-    template_name = "news.html"
+    template_name = "updates.html"
 
     def get_queryset(self, *args, **kwargs):
         qs = super(NewsView, self).get_queryset(*args, **kwargs)
@@ -15,8 +15,8 @@ class NewsView(ListView):
 def home(response):
     return render(response, "home.html", {})
 
-def news(response):
-    return render(response, "news.html", {})
+def updates(response):
+    return render(response, "updates.html", {})
 
 def code(response):
     return render(response, "codenet.html", {})

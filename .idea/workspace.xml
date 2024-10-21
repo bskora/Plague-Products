@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Fixing layout for official deployment">
-      <change afterPath="$PROJECT_DIR$/main/static/main/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/main/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PlagueProducts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PlagueProducts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Reverted scss auto conversion to prevent lag.">
+      <change afterPath="$PROJECT_DIR$/main/static/main/scss/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlagueProducts/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlagueProducts/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/codenet.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/codenet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/updates.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -498,7 +501,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +590,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added features to code.net" />
     <MESSAGE value="Loads of changes, functionality, added css." />
     <MESSAGE value="Implemented Sass, updated layouts." />
     <MESSAGE value="Completed Code.Net layout." />
@@ -612,6 +614,7 @@
     <MESSAGE value="Dark Wilderness has been replaced by Enduring Wilderness." />
     <MESSAGE value="Test to fix server" />
     <MESSAGE value="Fixing layout for official deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing layout for official deployment" />
+    <MESSAGE value="Reverted scss auto conversion to prevent lag." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverted scss auto conversion to prevent lag." />
   </component>
 </project>

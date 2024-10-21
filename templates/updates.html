@@ -1,13 +1,15 @@
 {% extends 'base.html' %}
 
 {% block title %}
-    Plague Products - News
+    Plague Products - Updates
 {% endblock %}
 
 {% block maininfo %}
-<div class="container px-4 py-5" id="features">
-  <h2 class="pb-2 border-bottom text-uppercase fw-bolder">Recent News</h2>
-    <div class="row row-cols-1 row-cols-md-1 py-5">
+<div class="album px-4 py-5">
+  <div class="container ms-md-5">
+    <h2 class="pb-2 border-bottom text-uppercase fw-bolder">Updates</h2>
+
+    <div class="row row-cols-1 g-3 mt-3">
       {% for post in object_list %}
       <div class="col">
         <div class="card bg-dark mb-4" style="border-radius: 10px; overflow: hidden;">
@@ -20,9 +22,8 @@
             </div>
         </div>
       </div>
-    </div>
-      </div>
       {% endfor %}
     </div>
+  </div>
 </div>
-{%  endblock %}
+{% endblock %}

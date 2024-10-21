@@ -39,9 +39,9 @@
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link {% if request.path == '/news/' %} active text-white {% else %} text-secondary {% endif %} text-uppercase fw-bolder"
-                     href="/news/">
-                    News
+                  <a class="nav-link {% if request.path == '/updates/' %} active text-white {% else %} text-secondary {% endif %} text-uppercase fw-bolder"
+                     href="/updates/">
+                    Updates
                   </a>
                 </li>
                 <li>
@@ -60,6 +60,26 @@
             </div>
           </div>
         </header>
+
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+         <!-- Slogan  -->
+        <div class="container my-2">
+            <p class="slogan text-center" style="
+                font-size: 1.1rem;
+                font-family: 'Righteous', cursive;
+                font-weight: 800;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                color: #000000;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            ">
+                Progress. Depth. Expandable. Replayable. Fun.
+            </p>
+        </div>
+
+        <div class="divider" style="height: 15px;"></div>
 
         {% block maininfo %}
         {%  endblock %}
