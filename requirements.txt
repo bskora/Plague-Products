@@ -6,6 +6,3 @@ whitenoise
 django-environ
 sentry-sdk
 django-inline-svg
-django-compressor
-django-libsass
-libsass
