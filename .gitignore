@@ -1,0 +1,14 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment
+venv/
+
+# Ignore environment variable file
+.env
+
+# Keep Django migration files tracked, ignore cache within it
+main/migrations/__pycache__/
+/staticfiles/
+/main/static/bootstrap/
