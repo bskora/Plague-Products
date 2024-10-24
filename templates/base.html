@@ -20,38 +20,35 @@
 
     </head>
     <body>
-        <header class="p-2 bg-dark text-white">
+        <header class="bg-dark text-white shadow-header">
           <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-between">
+            <div class="d-flex justify-content-start align-items-center" style="height: 60px;">
               <ul class="nav col-12 col-lg-auto mb-2 mb-md-0 align-items-center">
                 <li class="d-flex align-items-center">
-<!--                <a href="/" class="nav-link" style="margin-right: 10px">-->
-<!--                    <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo" fill="currentColor">-->
-<!--                        {% svg 'logo' %}-->
-<!--                    </svg>-->
-<!--                </a>-->
-
-
-
-
-                  <a href="/" class="nav-link logo-svg" style="margin-right: 10px">
+                  <a href="/" class="logo-svg">
                     {% svg 'logo' %}
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link {% if request.path == '/updates/' %} active text-white {% else %} text-secondary {% endif %} text-uppercase fw-bolder"
+                   <a class="nav-link
+                        {% if request.path == '/updates/' %} active text-white {% else %} text-secondary {% endif %}
+                        fw-bolder"
                      href="/updates/">
                     Updates
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link {% if request.path == '/enduringwilderness/' %} active text-white {% else %} text-secondary {% endif %} text-uppercase fw-bolder"
+                  <a class="nav-link
+                        {% if request.path == '/enduringwilderness/' %} active text-white {% else %} text-secondary {% endif %}
+                        fw-bolder"
                      href="/enduringwilderness/">
                     Enduring Wilderness
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link {% if request.path == '/code.net/' %} active text-white {% else %} text-secondary {% endif %} text-uppercase fw-bolder"
+                  <a class="nav-link
+                        {% if request.path == '/code.net/' %} active text-white {% else %} text-secondary {% endif %}
+                        fw-bolder"
                      href="/code.net/">
                     Code.Net
                   </a>
@@ -70,12 +67,11 @@
                 font-family: 'Righteous', cursive;
                 font-weight: 500;
                 letter-spacing: 0.1em;
-                text-transform: uppercase;
                 color: #000000;
                 margin-top: 1rem;
                 margin-bottom: 1rem;
             ">
-                Progression. Depth. Expandable. Replayable. Fun.
+                "Progression. Depth. Expandable. Replayable. Fun."
             </p>
         </div>
 
@@ -84,8 +80,8 @@
         {% block maininfo %}
         {%  endblock %}
 
-        <!--BOOTSTRAP SCRIPT-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS (includes Popper.js for tooltips) -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+F6tI51qIL9gq3Gk5yMaVlb8/V0K8" crossorigin="anonymous"></script>
 
     </body>
 
