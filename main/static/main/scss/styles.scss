@@ -41,64 +41,130 @@ $carousel-control-next-icon-bg: url('data:image/svg+xml,<svg xmlns="http://www.w
 }
 
 /* Exclude logo from link effects */
+// header a.logo-svg {
+//     display: flex;
+//     align-items: center;
+//     padding: 0;
+//     margin: 0 10px 0 0; /* Add 10px margin to the right */
+//     background: none;
+//     color: inherit;
+//     text-decoration: none;
+//     transition: none;
+// }
+//
+// /* Hover effect for links */
+// header a.nav-link:hover {
+//     background-color: rgba(255, 255, 255, 0.1); /* Subtle light background */
+//     color: #ffffff !important;
+// }
+//
+// /* Update the navigation link styles */
+// header a.nav-link {
+//     color: #b0b0b0; /* Default gray text */
+//     text-decoration: none;
+//     padding: 0 16px; /* Remove top and bottom padding */
+//     display: flex; /* Use Flexbox to align content */
+//     align-items: center;
+//     justify-content: center;
+//     height: 100%; /* Fill the parent li */
+//     transition: background-color 0.3s ease, color 0.3s ease;
+// }
+//
+// header a.nav-link.active {
+//     color: #fff; /* White text */
+//     border-bottom: 2px solid #ffffff; /* Accent color for active link */
+// }
+//
+//
+// /* Make the ul.nav fill the header height */
+// header ul.nav {
+//     display: flex;
+//     align-items: stretch; /* Allow li elements to stretch */
+//     height: 100%;
+//     margin: 0;
+//     padding: 0;
+// }
+//
+// /* Make the li elements fill the ul.nav height */
+// header ul.nav li {
+//     display: flex;
+//     align-items: center;
+//     height: 100%;
+//     margin: 0;
+//     padding: 0;
+// }
+//
+// header {
+//   background-color: $dark; // Use a dark background if you have a color variable
+//   color: white;
+//
+//   // Add the shadow effect below the header
+//   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+//   z-index: 10; // Ensure it stays on top of other elements
+// }
+/* Exclude logo from link effects */
+/* Exclude logo from link effects */
+/* Ensure Logo SVG is Properly Aligned */
+/* Logo Alignment */
 header a.logo-svg {
     display: flex;
     align-items: center;
     padding: 0;
-    margin: 0 10px 0 0; /* Add 10px margin to the right */
-    background: none;
-    color: inherit;
+    margin: 0 10px 0 0; /* Spacing to the right of the logo */
     text-decoration: none;
     transition: none;
 }
 
-/* Hover effect for links */
-header a.nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Subtle light background */
-    color: #ffffff !important;
-}
-
-/* Update the navigation link styles */
+/* Navbar Links Styling */
 header a.nav-link {
-    color: #b0b0b0; /* Default gray text */
+    color: #b0b0b0;
     text-decoration: none;
-    padding: 0 16px; /* Remove top and bottom padding */
-    display: flex; /* Use Flexbox to align content */
+    padding: 0 16px;
+    display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100%; /* Fill the parent li */
+    justify-content: center; /* Center text horizontally */
+    height: 100%; /* Fill the parent height */
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-header a.nav-link.active {
-    color: #fff; /* White text */
-    border-bottom: 2px solid #ffffff; /* Accent color for active link */
+/* Hover Effect */
+header a.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff !important;
 }
 
+/* Active Link Styling */
+header a.nav-link.active {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff; /* Accent border for active state */
+}
 
-/* Make the ul.nav fill the header height */
+/* Navbar and List Item Styling */
 header ul.nav {
     display: flex;
-    align-items: stretch; /* Allow li elements to stretch */
-    height: 100%;
+    align-items: stretch; /* Ensure items stretch to match height */
+    height: 100%; /* Match header height */
     margin: 0;
     padding: 0;
 }
 
-/* Make the li elements fill the ul.nav height */
 header ul.nav li {
     display: flex;
     align-items: center;
-    height: 100%;
+    height: 100%; /* Ensure li elements match parent height */
     margin: 0;
     padding: 0;
 }
 
+/* Header Container Styling */
 header {
-  background-color: $dark; // Use a dark background if you have a color variable
-  color: white;
+    background-color: #343a40;
+    color: white;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+    height: 60px;
+}
 
-  // Add the shadow effect below the header
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-  z-index: 10; // Ensure it stays on top of other elements
+header .col {
+    height: 100%; /* Fill the header height */
 }

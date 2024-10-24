@@ -20,43 +20,74 @@
 
     </head>
     <body>
-        <header class="bg-dark text-white shadow-header">
-          <div class="container">
-            <div class="d-flex justify-content-start align-items-center" style="height: 60px;">
-              <ul class="nav col-12 col-lg-auto mb-2 mb-md-0 align-items-center">
-                <li class="d-flex align-items-center">
-                  <a href="/" class="logo-svg">
-                    {% svg 'logo' %}
-                  </a>
-                </li>
-                <li>
-                   <a class="nav-link
-                        {% if request.path == '/updates/' %} active text-white {% else %} text-secondary {% endif %}
-                        fw-bolder"
-                     href="/updates/">
-                    Updates
-                  </a>
-                </li>
-                <li>
-                  <a class="nav-link
-                        {% if request.path == '/enduringwilderness/' %} active text-white {% else %} text-secondary {% endif %}
-                        fw-bolder"
-                     href="/enduringwilderness/">
-                    Enduring Wilderness
-                  </a>
-                </li>
-                <li>
-                  <a class="nav-link
-                        {% if request.path == '/code.net/' %} active text-white {% else %} text-secondary {% endif %}
-                        fw-bolder"
-                     href="/code.net/">
-                    Code.Net
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </header>
+<!--        <header class="bg-dark text-white shadow-header">-->
+<!--          <div class="container">-->
+<!--            <div class="d-flex justify-content-start align-items-center" style="height: 60px;">-->
+<!--              <ul class="nav col-12 col-lg-auto mb-2 mb-md-0 align-items-center">-->
+<!--                <li class="d-flex align-items-center">-->
+<!--                  <a href="/" class="logo-svg">-->
+<!--                    {% svg 'logo' %}-->
+<!--                  </a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                   <a class="nav-link-->
+<!--                        {% if request.path == '/updates/' %} active text-white {% else %} text-secondary {% endif %}-->
+<!--                        fw-bolder"-->
+<!--                     href="/updates/">-->
+<!--                    Updates-->
+<!--                  </a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                  <a class="nav-link-->
+<!--                        {% if request.path == '/enduringwilderness/' %} active text-white {% else %} text-secondary {% endif %}-->
+<!--                        fw-bolder"-->
+<!--                     href="/enduringwilderness/">-->
+<!--                    Enduring Wilderness-->
+<!--                  </a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                  <a class="nav-link-->
+<!--                        {% if request.path == '/code.net/' %} active text-white {% else %} text-secondary {% endif %}-->
+<!--                        fw-bolder"-->
+<!--                     href="/code.net/">-->
+<!--                    Code.Net-->
+<!--                  </a>-->
+<!--                </li>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </header>-->
+
+<header class="bg-dark text-white shadow-header">
+  <div class="container">
+    <div class="row align-items-center" style="height: 60px;">
+      <!-- Logo on the Left -->
+      <div class="col-auto">
+        <a href="/" class="logo-svg d-flex align-items-center">
+          {% svg 'logo' %}
+        </a>
+      </div>
+
+      <!-- Navigation Links (Centered with the Logo) -->
+      <div class="col">
+        <ul class="nav justify-content-start align-items-center">
+          <li class="nav-item">
+            <a class="nav-link {% if request.path == '/updates/' %} active text-white {% else %} text-secondary {% endif %} fw-bolder" href="/updates/">Updates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if request.path == '/enduringwilderness/' %} active text-white {% else %} text-secondary {% endif %} fw-bolder" href="/enduringwilderness/">Enduring Wilderness</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if request.path == '/code.net/' %} active text-white {% else %} text-secondary {% endif %} fw-bolder" href="/code.net/">Code.Net</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
 
         <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 
