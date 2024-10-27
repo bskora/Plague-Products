@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Improved Text &amp; Layout&#10;- Added indicator and banner to notify Code.Net is no longer in active development.&#10;- Made all titles no longer all uppercase.&#10;- Added improved visuals for the link navigator.&#10;- Improved descriptions for features in Enduring Wilderness.&#10;- Added more &quot;coming soon&quot; features to Enduring Wilderness.">
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Navigation Link Mobile View Fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/static/main/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/static/main/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/styles.css.map" afterDir="false" />
@@ -53,24 +53,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Django.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Previous_Computer/Programs/PlagueProducts/main/static/main/scss&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Django.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Previous_Computer/Programs/PlagueProducts/main/static/main/images",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Previous_Computer\Programs\PlagueProducts\main\static\main\images" />
       <recent name="D:\Previous_Computer\Programs\PlagueProducts\main\static\main\scss" />
       <recent name="D:\Previous Computer\Programs\PlagueProducts\main\static\svg" />
       <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\templates" />
       <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\main\static\main\images" />
-      <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\templates\features" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Previous_Computer\Programs\PlagueProducts\main\static\main\csss" />
@@ -496,7 +496,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Home section added." />
     <MESSAGE value="Many improvements to layout and designs. Added images. Improved footer." />
     <MESSAGE value="Added news section, fully functional using the database. Capitalized main categories on the website." />
     <MESSAGE value="Fixed vulnerabilities." />
@@ -610,6 +609,7 @@
     <MESSAGE value="Removing packages that are not needed" />
     <MESSAGE value="Added content to enduring wilderness." />
     <MESSAGE value="Improved Text &amp; Layout&#10;- Added indicator and banner to notify Code.Net is no longer in active development.&#10;- Made all titles no longer all uppercase.&#10;- Added improved visuals for the link navigator.&#10;- Improved descriptions for features in Enduring Wilderness.&#10;- Added more &quot;coming soon&quot; features to Enduring Wilderness." />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved Text &amp; Layout&#10;- Added indicator and banner to notify Code.Net is no longer in active development.&#10;- Made all titles no longer all uppercase.&#10;- Added improved visuals for the link navigator.&#10;- Improved descriptions for features in Enduring Wilderness.&#10;- Added more &quot;coming soon&quot; features to Enduring Wilderness." />
+    <MESSAGE value="Navigation Link Mobile View Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navigation Link Mobile View Fix" />
   </component>
 </project>
