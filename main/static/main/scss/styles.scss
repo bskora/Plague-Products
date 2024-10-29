@@ -133,3 +133,36 @@ header {
     box-shadow: none !important; // No shadow effect
   }
 }
+
+.game-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);  /* Scale the entire card */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);  // Enhance the shadow effect
+  }
+
+}
+
+.feature-card {
+  background: linear-gradient(135deg, #f8f9fa, #ffffff);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  width: 48px;
+  height: 48px;
+  background-color: #fffbe6; /* Example light yellow background */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
