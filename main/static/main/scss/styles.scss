@@ -72,6 +72,22 @@ header a.nav-link.active {
     border-bottom: 2px solid #ffffff; /* Accent color for active link */
 }
 
+/* Update the navigation link styles */
+header a.canvas-nav-link {
+    color: #b0b0b0; /* Default gray text */
+    text-decoration: none;
+    padding: 0 16px; /* Remove top and bottom padding */
+    display: flex; /* Use Flexbox to align content */
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Fill the parent li */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header a.canvas-nav-link.active {
+    color: #000; /* White text */
+    border-bottom: 2px solid #000000; /* Accent color for active link */
+}
 
 /* Make the ul.nav fill the header height */
 header ul.nav {

@@ -48,29 +48,32 @@
                     </li>
                   </ul>
                   <div class="offcanvas offcanvas-start bg-dark text-white d-lg-none" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header justify-content-center">
-                      <a
-                        class="logo-svg justify-content-center mx-auto"
-                        href="/"
-                        style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); text-align: center;">
-                        {% svg 'logo' %}
-                      </a>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <div class="offcanvas-header justify-content-center position-relative" style="height: 60px;">
+                        <a
+                            class="logo-svg" href="/">
+                            {% svg 'logo' %}
+                        </a>
+                        <button type="button"
+                                class="btn-close btn-close-white position-absolute"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"
+                                style="right: 20px;">
+                        </button>
                     </div>
-                    <div class="offcanvas-body">
+                    <div class="offcanvas-body bg-light">
                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                          <a class="nav-link {% if request.path == '/updates/' %} active text-white {% else %} text-secondary {% endif %} fw-bolder" href="/updates/">
+                          <a class="canvas-nav-link {% if request.path == '/updates/' %} active text-dark {% else %} text-secondary {% endif %} fw-bolder" href="/updates/">
                             Updates
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link {% if request.path == '/enduringwilderness/' %} active text-white {% else %} text-secondary {% endif %} fw-bolder" href="/enduringwilderness/">
+                          <a class="canvas-nav-link {% if request.path == '/enduringwilderness/' %} active text-dark {% else %} text-secondary {% endif %} fw-bolder" href="/enduringwilderness/">
                             Enduring Wilderness
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link {% if request.path == '/code.net/' %} active text-white {% else %} text-secondary {% endif %} fw-bolder" href="/code.net/">
+                          <a class="canvas-nav-link {% if request.path == '/code.net/' %} active text-dark {% else %} text-secondary {% endif %} fw-bolder" href="/code.net/">
                             Code.Net
                           </a>
                         </li>
@@ -82,27 +85,25 @@
              </div>
             </header>
 
-
-
-
-
-
         <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 
          <!-- Slogan  -->
         <div class="container my-2">
-            <p class="slogan text-center" style="
-                font-size: 1.1rem;
-                font-family: 'Righteous', cursive;
-                font-weight: 500;
-                letter-spacing: 0.1em;
-                color: #000000;
-                margin-top: 1rem;
-                margin-bottom: 1rem;
-            ">
+            <p
+                style="
+                    font-size: 1rem;
+                    font-family: 'Righteous', cursive;
+                    font-weight: 500;
+                    letter-spacing: 0.1em;
+                    color: #000000;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                    text-align: center;
+                ">
                 "Progression. Depth. Expandable. Replayable. Fun."
             </p>
         </div>
+
 
         <div class="divider-small"></div>
 

@@ -5,23 +5,24 @@
 {% endblock %}
 
 {% block maininfo %}
+
 <div class="album px-4 py-5">
-  <div class="container ms-md-5">
+  <div class="container">
     <h2 class="pb-2 border-bottom fw-bolder">Updates</h2>
 
-    <div class="row row-cols-1 g-3 mt-3">
-      {% for post in object_list %}
-      <div class="col">
-        <div class="card bg-dark mb-4" style="border-radius: 10px; overflow: hidden;">
-            <div class="card-header text-white">
-                <p class="card-text mb-1"><small class="text-white-50">Posted {{ post.date }}</small></p>
-                <h5 class="card-title">{{ post.title }}</h5>
+        <div class="row row-cols-1 g-3 mt-3">
+          {% for post in object_list %}
+          <div class="col">
+            <div class="card bg-dark mb-4" style="border-radius: 10px; overflow: hidden;">
+                <div class="card-header text-white">
+                    <p class="card-text mb-1"><small class="text-white-50">Posted {{ post.date }}</small></p>
+                    <h5 class="card-title">{{ post.title }}</h5>
+                </div>
+                <div class="card-body bg-light">
+                    {{ post.body | safe }}
+                </div>
             </div>
-            <div class="card-body bg-light">
-                {{ post.body | safe }}
-            </div>
-        </div>
-      </div>
+          </div>
       {% endfor %}
     </div>
   </div>
