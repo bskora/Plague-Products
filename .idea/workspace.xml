@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Navigation Mobile Improvements&#10;- Navigation for mobile is now fully functional and modernized.&#10;- Reduced size of slogan.&#10;- Added alert for Enduring Wilderness to signify active development/subject to change.&#10;- Fixed Updates layout.">
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Added Animations&#10;- Animations added to home and Enduring Wilderness pages.&#10;- Improved Enduring Wilderness layout.">
+      <change afterPath="$PROJECT_DIR$/main/static/main/images/banner-enduring-wilderness.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/main/images/hunts-catches.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/main/images/reactive-events.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/main/images/skill-your-way.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/main/images/step-into-adventure.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/main/images/strategic-depth.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/main/images/survival-core.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/enduringwilderness.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/enduringwilderness.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +77,11 @@
       <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\main\static\main\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Previous_Computer\Programs\PlagueProducts\main\static\main\images" />
       <recent name="D:\Previous_Computer\Programs\PlagueProducts\main\static\main\csss" />
       <recent name="D:\Previous Computer\Programs\PlagueProducts\main\static\svg" />
       <recent name="D:\Previous Computer\Programs\PlagueProducts\main\static\main\images" />
       <recent name="D:\Previous Computer\Programs\PlagueProducts\main\static\bootstrap" />
-      <recent name="D:\Previous Computer\Programs\PlagueProducts\main\static\main" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Django">
@@ -498,7 +500,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed vulnerabilities." />
     <MESSAGE value="Improved News Layout" />
     <MESSAGE value="test for deployment" />
     <MESSAGE value="fixed container, testing auto deployment" />
@@ -612,6 +613,7 @@
     <MESSAGE value="Navigation Link Mobile View Fix" />
     <MESSAGE value="Navigation Link Mobile View Fix and Improvements" />
     <MESSAGE value="Navigation Mobile Improvements&#10;- Navigation for mobile is now fully functional and modernized.&#10;- Reduced size of slogan.&#10;- Added alert for Enduring Wilderness to signify active development/subject to change.&#10;- Fixed Updates layout." />
-    <option name="LAST_COMMIT_MESSAGE" value="Navigation Mobile Improvements&#10;- Navigation for mobile is now fully functional and modernized.&#10;- Reduced size of slogan.&#10;- Added alert for Enduring Wilderness to signify active development/subject to change.&#10;- Fixed Updates layout." />
+    <MESSAGE value="Added Animations&#10;- Animations added to home and Enduring Wilderness pages.&#10;- Improved Enduring Wilderness layout." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Animations&#10;- Animations added to home and Enduring Wilderness pages.&#10;- Improved Enduring Wilderness layout." />
   </component>
 </project>
