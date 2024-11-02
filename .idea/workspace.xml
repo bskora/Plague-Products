@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Added Animations&#10;- Animations added to home and Enduring Wilderness pages.&#10;- Improved Enduring Wilderness layout.">
-      <change afterPath="$PROJECT_DIR$/main/static/main/images/banner-enduring-wilderness.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/main/images/hunts-catches.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/main/images/reactive-events.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/main/images/skill-your-way.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/main/images/step-into-adventure.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/main/images/strategic-depth.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/main/images/survival-core.webp" afterDir="false" />
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Improved Enduring Wilderness Section&#10;- Added images.&#10;- Added core features.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/enduringwilderness.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/enduringwilderness.html" afterDir="false" />
     </list>
@@ -500,7 +493,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Improved News Layout" />
     <MESSAGE value="test for deployment" />
     <MESSAGE value="fixed container, testing auto deployment" />
     <MESSAGE value="Updated to python 3.10. Updated bootstrap to 5.2.0. Fixed color in news card." />
@@ -614,6 +606,7 @@
     <MESSAGE value="Navigation Link Mobile View Fix and Improvements" />
     <MESSAGE value="Navigation Mobile Improvements&#10;- Navigation for mobile is now fully functional and modernized.&#10;- Reduced size of slogan.&#10;- Added alert for Enduring Wilderness to signify active development/subject to change.&#10;- Fixed Updates layout." />
     <MESSAGE value="Added Animations&#10;- Animations added to home and Enduring Wilderness pages.&#10;- Improved Enduring Wilderness layout." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Animations&#10;- Animations added to home and Enduring Wilderness pages.&#10;- Improved Enduring Wilderness layout." />
+    <MESSAGE value="Improved Enduring Wilderness Section&#10;- Added images.&#10;- Added core features." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved Enduring Wilderness Section&#10;- Added images.&#10;- Added core features." />
   </component>
 </project>
