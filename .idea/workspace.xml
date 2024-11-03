@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Enduring Wilderness Section - Navigation Bar Added&#10;- Improved mobile support to game features section">
-      <change afterPath="$PROJECT_DIR$/templates/privatepolicy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/termsofservice.html" afterDir="false" />
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Footer Improvements&#10;- Removed x social media.&#10;- Improved layout.&#10;- Added additional footer for enduring wilderness which has it's own social media link.&#10;- Added privacy policy.&#10;- Added terms of service.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/enduringwilderness.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/enduringwilderness.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -502,7 +493,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated to python 3.10. Updated bootstrap to 5.2.0. Fixed color in news card." />
     <MESSAGE value="Implemented more parts of the bootstrap update. Spaced out logo in header." />
     <MESSAGE value="updated boostrap version" />
     <MESSAGE value="attempt to fix database replacement" />
@@ -616,6 +606,7 @@
     <MESSAGE value="Improved Enduring Wilderness Section&#10;- Added images.&#10;- Added core features." />
     <MESSAGE value="Implemented Enduring Wilderness Features&#10;- Added to the implemented features list.&#10;- Removed descriptions to implemented features." />
     <MESSAGE value="Enduring Wilderness Section - Navigation Bar Added&#10;- Improved mobile support to game features section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enduring Wilderness Section - Navigation Bar Added&#10;- Improved mobile support to game features section" />
+    <MESSAGE value="Footer Improvements&#10;- Removed x social media.&#10;- Improved layout.&#10;- Added additional footer for enduring wilderness which has it's own social media link.&#10;- Added privacy policy.&#10;- Added terms of service." />
+    <option name="LAST_COMMIT_MESSAGE" value="Footer Improvements&#10;- Removed x social media.&#10;- Improved layout.&#10;- Added additional footer for enduring wilderness which has it's own social media link.&#10;- Added privacy policy.&#10;- Added terms of service." />
   </component>
 </project>
