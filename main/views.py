@@ -23,3 +23,9 @@ def code(response):
 
 def enduring_wilderness(response):
     return render(response, "enduringwilderness.html", {})
+
+def private_policy(response):
+    return render(response, "privatepolicy.html", {})
+
+def terms_of_service(response):
+    return render(response, "termsofservice.html", {})

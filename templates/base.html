@@ -25,12 +25,12 @@
         <header class="bg-dark text-white shadow-header">
             <div class="d-flex mx-4 flex-grow-1">
               <nav class="navbar navbar-dark bg-dark flex-grow-1" style="padding-top: 0; padding-bottom: 0;">
-                <div class="d-flex flex-grow-1" style="height: 60px;">
+                <div class="d-flex flex-grow-1 " style="justify-content: center; align-items: center; height: 80px;">
                   <div class="d-flex flex-grow-1 flex-lg-grow-0">
                     <button class="justify-content-start navbar-toggler me-4 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="logo-svg justify-content-center mx-auto" href="/">
+                    <a class="logo-svg mx-auto" href="/">
                         {% svg 'logo' %}
                     </a>
                   </div>
@@ -119,20 +119,37 @@
         <script>AOS.init();</script>
     </body>
 
-    <div class="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" role="contentinfo" aria-label="Site footer">
-        <div class="col-md-4 d-flex align-items-center">
-          <span class="text-muted">&copy; 2024 Plague Products. All rights reserved.</span>
-        </div>
+<!--    <div class="container">-->
+<!--      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" role="contentinfo" aria-label="Site footer">-->
+<!--        <div class="col-md-4 d-flex align-items-center">-->
+<!--          <span class="text-muted">&copy; 2024 Plague Products. All rights reserved.</span>-->
+<!--        </div>-->
 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">
-            <a class="text-muted" href="https://twitter.com/plagueproducts">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
-            </svg>
-            </a></li>
-        </ul>
-      </footer>
+<!--        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">-->
+<!--          <li class="ms-3">-->
+<!--            <a class="text-muted" href="https://twitter.com/plagueproducts">-->
+<!--            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">-->
+<!--              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>-->
+<!--            </svg>-->
+<!--            </a></li>-->
+<!--        </ul>-->
+<!--      </footer>-->
+<!--    </div>-->
+
+<div class="container-fluid bg-dark text-light py-4">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center">
+    <div class="col-md-4 d-flex align-items-center">
+      <span class="fs-6">&copy; 2024 Plague Products. All rights reserved.</span>
     </div>
+
+    <div class="col-md-4 d-flex justify-content-end">
+      <ul class="nav">
+        <li class="nav-item"><a href="/privatepolicy" class="nav-link text-light px-2">Privacy Policy</a></li>
+        <li class="nav-item"><a href="/termsofservice" class="nav-link text-light px-2">Terms of Service</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-light px-2" style="opacity: 0.3;">Support</a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
 </html>

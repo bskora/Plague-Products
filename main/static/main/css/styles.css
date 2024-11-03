@@ -12001,38 +12001,33 @@ header {
 .modern-nav {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
 }
 .modern-nav .modern-link {
   color: #4a773c;
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 8px;
+  background-color: #f2f2f0;
   transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
 }
-.modern-nav .modern-link::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  background-color: #b57d4a;
-  margin: 0 auto;
-  transition: width 0.3s;
-}
 .modern-nav .modern-link:hover {
+  background-color: #e6e6e3;
   color: #3e6532;
-  background-color: rgba(74, 119, 60, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-.modern-nav .modern-link:hover::after {
-  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .modern-nav .modern-link.active {
-  color: #ffffff;
   background-color: #4a773c;
-  border-radius: 5px;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.informative-header {
+  font-size: 1.75em;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -167,25 +167,38 @@ header {
   margin-right: 10px;
 }
 
-.custom-nav-container .modern-nav .modern-link {
-  color: #4a773c !important; // Earthy green color for text
-  font-size: 1.1rem !important; // Font size for readability
-  font-weight: 700 !important; // Bold text
-  text-decoration: none !important; // Remove underline
-  padding: 10px 20px !important; // Padding for button effect
-  border-radius: 8px !important; // Rounded corners for button shape
-  background-color: #f2f2f0 !important; // Light background with !important
-  transition: color 0.3s, background-color 0.3s, box-shadow 0.3s !important;
+.modern-nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px; // Space between navigation links
 
-  &:hover {
-    background-color: #e6e6e3 !important; // Slightly darker background on hover
-    color: #3e6532 !important; // Darker green on hover
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important; // Subtle shadow on hover
+  .modern-link {
+    color: #4a773c; // Earthy green color for text
+    font-size: 1.1rem; // Font size for readability
+    font-weight: 600; // Semi-bold for emphasis
+    text-decoration: none; // Remove underline
+    padding: 10px 20px; // Padding for button effect
+    border-radius: 8px; // Rounded corners for button shape
+    background-color: #f2f2f0; // Light background to make it look like a button
+    transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+
+    &:hover {
+      background-color: #e6e6e3; // Slightly darker background on hover
+      color: #3e6532; // Darker green on hover
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); // Subtle shadow on hover
+    }
+
+    &.active {
+      background-color: #4a773c; // Darker green for active state
+      color: #ffffff; // White text for contrast in active state
+      border-radius: 8px; // Keep button shape consistent
+    }
   }
 
-  &.active {
-    background-color: #4a773c !important; // Darker green for active state
-    color: #ffffff !important; // White text for contrast in active state
-    border-radius: 8px !important; // Keep button shape consistent
-  }
+}
+
+.informative-header {
+  font-size: 1.75em;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
