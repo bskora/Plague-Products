@@ -166,3 +166,26 @@ header {
   justify-content: center;
   margin-right: 10px;
 }
+
+.custom-nav-container .modern-nav .modern-link {
+  color: #4a773c !important; // Earthy green color for text
+  font-size: 1.1rem !important; // Font size for readability
+  font-weight: 700 !important; // Bold text
+  text-decoration: none !important; // Remove underline
+  padding: 10px 20px !important; // Padding for button effect
+  border-radius: 8px !important; // Rounded corners for button shape
+  background-color: #f2f2f0 !important; // Light background with !important
+  transition: color 0.3s, background-color 0.3s, box-shadow 0.3s !important;
+
+  &:hover {
+    background-color: #e6e6e3 !important; // Slightly darker background on hover
+    color: #3e6532 !important; // Darker green on hover
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important; // Subtle shadow on hover
+  }
+
+  &.active {
+    background-color: #4a773c !important; // Darker green for active state
+    color: #ffffff !important; // White text for contrast in active state
+    border-radius: 8px !important; // Keep button shape consistent
+  }
+}

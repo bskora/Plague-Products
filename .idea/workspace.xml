@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Improved Enduring Wilderness Section&#10;- Added images.&#10;- Added core features.">
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Implemented Enduring Wilderness Features&#10;- Added to the implemented features list.&#10;- Removed descriptions to implemented features.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/scss/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/enduringwilderness.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/enduringwilderness.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -493,7 +496,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test for deployment" />
     <MESSAGE value="fixed container, testing auto deployment" />
     <MESSAGE value="Updated to python 3.10. Updated bootstrap to 5.2.0. Fixed color in news card." />
     <MESSAGE value="Implemented more parts of the bootstrap update. Spaced out logo in header." />
@@ -607,6 +609,7 @@
     <MESSAGE value="Navigation Mobile Improvements&#10;- Navigation for mobile is now fully functional and modernized.&#10;- Reduced size of slogan.&#10;- Added alert for Enduring Wilderness to signify active development/subject to change.&#10;- Fixed Updates layout." />
     <MESSAGE value="Added Animations&#10;- Animations added to home and Enduring Wilderness pages.&#10;- Improved Enduring Wilderness layout." />
     <MESSAGE value="Improved Enduring Wilderness Section&#10;- Added images.&#10;- Added core features." />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved Enduring Wilderness Section&#10;- Added images.&#10;- Added core features." />
+    <MESSAGE value="Implemented Enduring Wilderness Features&#10;- Added to the implemented features list.&#10;- Removed descriptions to implemented features." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Enduring Wilderness Features&#10;- Added to the implemented features list.&#10;- Removed descriptions to implemented features." />
   </component>
 </project>
