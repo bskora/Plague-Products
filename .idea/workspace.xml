@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Possible Footer Fix">
-      <change afterPath="$PROJECT_DIR$/main/context_processors.py" afterDir="false" />
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Added Google Analytics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlagueProducts/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlagueProducts/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -498,7 +494,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated boostrap version" />
     <MESSAGE value="attempt to fix database replacement" />
     <MESSAGE value="attempt to fix database" />
     <MESSAGE value="Test to integrate postgres database." />
@@ -612,6 +607,7 @@
     <MESSAGE value="Enduring Wilderness Section - Navigation Bar Added&#10;- Improved mobile support to game features section" />
     <MESSAGE value="Footer Improvements&#10;- Removed x social media.&#10;- Improved layout.&#10;- Added additional footer for enduring wilderness which has it's own social media link.&#10;- Added privacy policy.&#10;- Added terms of service." />
     <MESSAGE value="Possible Footer Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Possible Footer Fix" />
+    <MESSAGE value="Added Google Analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Google Analytics" />
   </component>
 </project>
