@@ -11860,14 +11860,6 @@ textarea.form-control-lg {
   box-shadow: inset 0 0.25em 0.75em rgba(0, 0, 0, 0.05), inset 0 0.0625em 0.25em rgba(0, 0, 0, 0.1); /* Subtle shadows */
 }
 
-#carouselhome .carousel-indicators [data-bs-target] {
-  background-color: #000000;
-}
-
-#carouselcode .carousel-indicators [data-bs-target] {
-  background-color: #43a047;
-}
-
 .logo-svg {
   width: 100px; /* Has to be set to something otherwise wont work */
   height: 60px;
@@ -12028,6 +12020,45 @@ header {
   font-size: 1.75em;
   margin-top: 30px;
   margin-bottom: 15px;
+}
+
+#game-screenshots-carousel {
+  position: relative; /* Allows absolute positioning within */
+  width: 100%; /* Carousel takes up available width */
+  max-width: 300px; /* Ensures carousel doesn't exceed image width */
+  margin: 0 auto; /* Centers the carousel */
+}
+
+#game-screenshots-carousel .carousel-inner {
+  width: 100%; /* Matches the carousel's width */
+}
+
+#game-screenshots-carousel .carousel-inner img {
+  width: 100%; /* Images scale with the carousel */
+  height: auto;
+  object-fit: contain;
+}
+
+#game-screenshots-carousel .carousel-control-prev,
+#game-screenshots-carousel .carousel-control-next {
+  position: absolute;
+  top: 50%; /* Centers arrows vertically */
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional styling */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#game-screenshots-carousel .carousel-control-prev {
+  left: 3%; /* Positions arrow 5% from the left edge of the carousel */
+}
+
+#game-screenshots-carousel .carousel-control-next {
+  right: 3%; /* Positions arrow 5% from the right edge of the carousel */
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,16 +1,16 @@
 @use "../../bootstrap/scss/bootstrap" as *;
 
 // Include any default variable overrides here (though functions won't be available)
-$carousel-control-color: #000000;
-$carousel-control-prev-icon-bg: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#{$carousel-control-color}"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/></svg>');
-$carousel-control-next-icon-bg: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#{$carousel-control-color}"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/></svg>');
+// $carousel-control-color: #000000;
+// $carousel-control-prev-icon-bg: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#{$carousel-control-color}"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/></svg>');
+// $carousel-control-next-icon-bg: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#{$carousel-control-color}"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/></svg>');
 
 .divider {
   height: 3rem;
-  background-color: rgba(0, 0, 0, .1);
-  border: solid rgba(0, 0, 0, .15);
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
   border-width: 1px 0;
-  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, 0.1), inset 0 .125em .5em rgba(0, 0, 0, 0.15);
 }
 
 .divider-small {
@@ -22,13 +22,14 @@ $carousel-control-next-icon-bg: url('data:image/svg+xml,<svg xmlns="http://www.w
               inset 0 0.0625em 0.25em rgba(0, 0, 0, 0.1); /* Subtle shadows */
 }
 
-#carouselhome .carousel-indicators [data-bs-target] {
-    background-color: #000000;
-}
 
-#carouselcode .carousel-indicators [data-bs-target] {
-    background-color: #43a047
-}
+// #carouselhome .carousel-indicators [data-bs-target] {
+//     background-color: #000000;
+// }
+//
+// #carouselcode .carousel-indicators [data-bs-target] {
+//     background-color: #43a047
+// }
 
 .logo-svg {
     width: 100px; /* Has to be set to something otherwise wont work */
@@ -202,3 +203,44 @@ header {
   margin-top: 30px;
   margin-bottom: 15px;
 }
+
+#game-screenshots-carousel {
+    position: relative; /* Allows absolute positioning within */
+    width: 100%; /* Carousel takes up available width */
+    max-width: 300px; /* Ensures carousel doesn't exceed image width */
+    margin: 0 auto; /* Centers the carousel */
+}
+
+#game-screenshots-carousel .carousel-inner {
+    width: 100%; /* Matches the carousel's width */
+}
+
+#game-screenshots-carousel .carousel-inner img {
+    width: 100%; /* Images scale with the carousel */
+    height: auto;
+    object-fit: contain;
+}
+
+#game-screenshots-carousel .carousel-control-prev,
+#game-screenshots-carousel .carousel-control-next {
+    position: absolute;
+    top: 50%; /* Centers arrows vertically */
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional styling */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#game-screenshots-carousel .carousel-control-prev {
+    left: 3%; /* Positions arrow 5% from the left edge of the carousel */
+}
+
+#game-screenshots-carousel .carousel-control-next {
+    right: 3%; /* Positions arrow 5% from the right edge of the carousel */
+}
+
+

@@ -30,17 +30,42 @@
 
 <div class="divider"></div>
 
+{% load static %}
+
+<div id="game-screenshots-carousel" class="carousel slide mt-4 mb-4" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/static/main/images/crafting-screenshot.jpg" class="d-block w-100 carousel-img" alt="Screenshot 1">
+        </div>
+        <div class="carousel-item">
+            <img src="/static/main/images/inventory-screenshot.jpg" class="d-block w-100 carousel-img" alt="Screenshot 2">
+        </div>
+        <div class="carousel-item">
+            <img src="/static/main/images/skills-screenshot.jpg" class="d-block w-100 carousel-img" alt="Screenshot 3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#game-screenshots-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#game-screenshots-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="divider"></div>
+
 <!-- Scroll View Section for Features -->
 <div id="game-features" class="container px-4 py-5">
   <h2 class="pb-3 border-bottom fw-bolder mb-5">Game Features</h2>
 
   <!-- Core Feature 1 -->
-  <div class="row feature-section align-items-center my-5">
-    <div class="col-12 col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-      {% load static %}
+  <div class="row feature-section align-items-center justify-content-center my-5">
+    <div class="col-7 col-md-6 mb-4 mb-md-0" data-aos="fade-right">
       <img src="/static/main/images/step-into-adventure.webp" class="img-fluid rounded shadow-sm mx-auto d-block">
     </div>
-    <div class="col-12 col-md-6 text-center text-md-start" data-aos="fade-left">
+    <div class="col-7 col-md-6 order-2 order-md-1 text-center text-md-start text-wrap" data-aos="fade-right">
       <h3 class="fw-bold">Embark on Your Adventure</h3>
       <p class="text-muted">
         Gather valuable resources in-game through real-world actions. Let each step of your journey empower your adventure and success.
@@ -51,11 +76,11 @@
   <div class="border-bottom"></div>
 
   <!-- Core Feature 2 -->
-  <div class="row feature-section align-items-center my-5">
-    <div class="col-12 col-md-6 order-1 order-md-2 mb-4 mb-md-0" data-aos="fade-left">
+  <div class="row feature-section align-items-center justify-content-center my-5">
+    <div class="col-7 col-md-6 order-1 order-md-2 mb-4 mb-md-0" data-aos="fade-left">
       <img src="/static/main/images/strategic-depth.webp" class="img-fluid rounded shadow-sm">
     </div>
-    <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start" data-aos="fade-right">
+    <div class="col-7 col-md-6 order-2 order-md-1 text-center text-md-start text-wrap" data-aos="fade-right">
       <h3 class="fw-bold">Master the Art of Strategy</h3>
       <p class="text-muted">
         Easy to pick up, challenging to perfect—experience gameplay where simple mechanics evolve into complex strategies for those who seek mastery.
@@ -66,12 +91,11 @@
     <div class="border-bottom"></div>
 
   <!-- Core Feature 3 -->
-  <div class="row feature-section align-items-center my-5">
-    <div class="col-12 col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-      {% load static %}
+  <div class="row feature-section align-items-center justify-content-center my-5">
+    <div class="col-7 col-md-6 mb-4 mb-md-0" data-aos="fade-right">
       <img src="/static/main/images/skill-your-way.webp" class="img-fluid rounded shadow-sm">
     </div>
-    <div class="col-12 col-md-6 text-center text-md-start" data-aos="fade-left">
+    <div class="col-7 col-md-6 text-center text-md-start text-wrap" data-aos="fade-left">
       <h3 class="fw-bold">Forge Your Path to Survival</h3>
       <p class="text-muted">
         Develop essential skills that forge your journey. Every level gained marks your progress and strengthens your chances of survival.
@@ -82,11 +106,11 @@
     <div class="border-bottom"></div>
 
   <!-- Core Feature 4 -->
-    <div class="row feature-section align-items-center my-5">
-    <div class="col-12 col-md-6 order-1 order-md-2 mb-4 mb-md-0" data-aos="fade-left">
+    <div class="row feature-section align-items-center justify-content-center my-5">
+    <div class="col-7 col-md-6 order-1 order-md-2 mb-4 mb-md-0" data-aos="fade-left">
       <img src="/static/main/images/hunts-catches.webp" class="img-fluid rounded shadow-sm">
     </div>
-    <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start" data-aos="fade-right">
+    <div class="col-7 col-md-6 order-2 order-md-1 text-center text-md-start text-wrap" data-aos="fade-right">
       <h3 class="fw-bold">Pursue Legendary Hunts and Catches</h3>
       <p class="text-muted">
         Pursue rare wildlife, set new records, and curate a collection that showcases your prowess.
@@ -97,12 +121,12 @@
   <div class="border-bottom"></div>
 
   <!-- Core Feature 5 -->
-  <div class="row feature-section align-items-center my-5">
-    <div class="col-12 col-md-6 mb-4 mb-md-0" data-aos="fade-right">
+  <div class="row feature-section align-items-center justify-content-center my-5">
+    <div class="col-7 col-md-6 mb-4 mb-md-0" data-aos="fade-right">
       {% load static %}
       <img src="/static/main/images/reactive-events.webp" class="img-fluid rounded shadow-sm">
     </div>
-    <div class="col-12 col-md-6 text-center text-md-start" data-aos="fade-left">
+    <div class="col-7 col-md-6 text-center text-md-start text-wrap" data-aos="fade-left">
       <h3 class="fw-bold">Dynamic Events Shaped by Your Choices</h3>
       <p class="text-muted">
         Encounter dynamic, action-driven challenges where your choices carry real consequences, turning each event into a unique strategic trial.
@@ -113,11 +137,11 @@
   <div class="border-bottom"></div>
 
   <!-- Core Feature 6 -->
-    <div class="row feature-section align-items-center my-5">
-      <div class="col-12 col-md-6 order-1 order-md-2 mb-4 mb-md-0" data-aos="fade-left">
+    <div class="row feature-section align-items-center justify-content-center my-5">
+      <div class="col-7 col-md-6 order-1 order-md-2 mb-4 mb-md-0" data-aos="fade-left">
       <img src="/static/main/images/survival-core.webp" class="img-fluid rounded shadow-sm">
     </div>
-    <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start" data-aos="fade-right">
+    <div class="col-7 col-md-6 order-2 order-md-1 text-center text-md-start text-wrap" data-aos="fade-right">
       <h3 class="fw-bold">Survival at Its Core</h3>
       <p class="text-muted">
         Monitor your health, hunger, and resources meticulously. Stay vigilant, stay nourished, and push forward as the world relentlessly tests your resilience.
