@@ -12030,9 +12030,4 @@ header {
   margin-bottom: 15px;
 }
 
-.social-banner {
-  position: relative;
-  z-index: 10; /* Increase this value if necessary */
-}
-
 /*# sourceMappingURL=styles.css.map */
