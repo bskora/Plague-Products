@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Added Sharing/Streaming to Terms of Service">
-      <change afterPath="$PROJECT_DIR$/main/static/main/images/crafting-screenshot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/main/images/inventory-screenshot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/main/images/skills-screenshot.jpg" afterDir="false" />
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Screenshots Added/Improved mobile support">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/enduringwilderness.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/enduringwilderness.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +58,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Previous_Computer/Programs/PlagueProducts/main/static/main/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Previous_Computer/Programs/PlagueProducts&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
@@ -500,7 +494,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Potential completion of postgres database." />
     <MESSAGE value="changed enduring wilderness, testing if pushing update to server" />
     <MESSAGE value="- Added conditional formatting changes for links.&#10;- Added SVG image support.&#10;- SCSS compiling is now done automatically.&#10;- Fixed news section bottom borders not being solid.&#10;- Replaced Dark Wilderness with Enduring Wilderness on the home screen.&#10;- Fixed blurry logo icon at the top left.&#10;- Changed twitter logo at the bottom right to the x logo." />
     <MESSAGE value="Improvements/Fixes/Updates&#10;- Updated Bootstrap to latest version.&#10;- Added conditional formatting changes for links.&#10;- Added SVG image support.&#10;- SCSS compiling is now done automatically.&#10;- Fixed news section bottom borders not being solid.&#10;- Replaced Dark Wilderness with Enduring Wilderness on the home screen.&#10;- Fixed blurry logo icon at the top left.&#10;- Changed twitter logo at the bottom right to the x logo." />
@@ -614,6 +607,7 @@
     <MESSAGE value="Fixed Javascript code" />
     <MESSAGE value="Updated Terms of Service and Privacy Policy" />
     <MESSAGE value="Added Sharing/Streaming to Terms of Service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Sharing/Streaming to Terms of Service" />
+    <MESSAGE value="Screenshots Added/Improved mobile support" />
+    <option name="LAST_COMMIT_MESSAGE" value="Screenshots Added/Improved mobile support" />
   </component>
 </project>
