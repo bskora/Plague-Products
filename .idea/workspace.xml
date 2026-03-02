@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Changed date. Testing push.">
-      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="added runtime.txt">
+      <change beforePath="$PROJECT_DIR$/.idea/PlagueProducts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PlagueProducts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -494,7 +495,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- Added conditional formatting changes for links.&#10;- Added SVG image support.&#10;- SCSS compiling is now done automatically.&#10;- Fixed news section bottom borders not being solid.&#10;- Replaced Dark Wilderness with Enduring Wilderness on the home screen.&#10;- Fixed blurry logo icon at the top left.&#10;- Changed twitter logo at the bottom right to the x logo." />
     <MESSAGE value="Improvements/Fixes/Updates&#10;- Updated Bootstrap to latest version.&#10;- Added conditional formatting changes for links.&#10;- Added SVG image support.&#10;- SCSS compiling is now done automatically.&#10;- Fixed news section bottom borders not being solid.&#10;- Replaced Dark Wilderness with Enduring Wilderness on the home screen.&#10;- Fixed blurry logo icon at the top left.&#10;- Changed twitter logo at the bottom right to the x logo." />
     <MESSAGE value="Dark Wilderness has been replaced by Enduring Wilderness." />
     <MESSAGE value="Test to fix server" />
@@ -608,6 +608,7 @@
     <MESSAGE value="Added Sharing/Streaming to Terms of Service" />
     <MESSAGE value="Screenshots Added/Improved mobile support" />
     <MESSAGE value="Changed date. Testing push." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed date. Testing push." />
+    <MESSAGE value="added runtime.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="added runtime.txt" />
   </component>
 </project>
