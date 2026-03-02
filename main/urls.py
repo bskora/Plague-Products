@@ -8,6 +8,6 @@ urlpatterns = [
     path("updates/", NewsView.as_view(), name="update"),
     path("code.net/", views.code, name="code"),
     path("enduringwilderness/", views.enduring_wilderness, name="enduringwilderness"),
-    path("privatepolicy/", views.private_policy, name="privatepolicy"),
+    path("privacypolicy/", views.privacy_policy, name="privacypolicy"),
     path("termsofservice/", views.terms_of_service, name="termsofservice"),
 ]
