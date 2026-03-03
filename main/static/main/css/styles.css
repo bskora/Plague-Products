@@ -12061,4 +12061,34 @@ header {
   right: 3%; /* Positions arrow 5% from the right edge of the carousel */
 }
 
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1b222c;
+}
+
+.site-main {
+  flex: 1 0 auto;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.footer-link {
+  color: #f8f9fa !important;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: #c7ced6 !important;
+}
+
 /*# sourceMappingURL=styles.css.map */
