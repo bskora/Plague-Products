@@ -152,6 +152,12 @@ header {
   display: block;
 }
 
+.game-card-image-fill {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
 .feature-card {
   background: linear-gradient(135deg, #f8f9fa, #ffffff);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
