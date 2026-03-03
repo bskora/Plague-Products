@@ -32,12 +32,12 @@
         <header class="bg-dark text-white shadow-header">
             <div class="d-flex mx-4 flex-grow-1">
               <nav class="navbar navbar-dark bg-dark flex-grow-1" style="padding-top: 0; padding-bottom: 0;">
-                <div class="d-flex flex-grow-1 " style="justify-content: center; align-items: center; height: 80px;">
+                <div class="d-flex flex-grow-1 " style="justify-content: flex-start; align-items: center; height: 80px;">
                   <div class="d-flex flex-grow-1 flex-lg-grow-0">
                     <button class="justify-content-start navbar-toggler me-4 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="logo-svg mx-auto" href="/">
+                    <a class="logo-svg me-4" href="/">
                         {% svg 'logo' %}
                     </a>
                   </div>
@@ -98,6 +98,7 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 
+        <main class="site-main flex-grow-1 bg-light">
          <!-- Slogan  -->
         <div class="container my-2">
             <p
@@ -120,7 +121,7 @@
 
         {% block maininfo %}
         {%  endblock %}
-    </body>
+        </main>
 
 <!--    <div class="container">-->
 <!--      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" role="contentinfo" aria-label="Site footer">-->
@@ -146,11 +147,10 @@
 
       <div class="col-md-4 d-flex justify-content-end">
         <ul class="nav">
-          <li class="nav-item"><a href="/privacypolicy/" class="nav-link text-light px-2">Privacy Policy</a></li>
-          <li class="nav-item"><a href="/termsofservice" class="nav-link text-light px-2">Terms of Service</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-light px-2" style="opacity: 0.3;">Support</a></li>
-          <li class="nav-item">
-            <a class="nav-link text-light px-2" href="https://x.com/plagueproducts" target="_blank" rel="noopener noreferrer" aria-label="Plague Products on X">
+          <li class="nav-item"><a href="/privacypolicy/" class="nav-link footer-link px-2">Privacy Policy</a></li>
+          <li class="nav-item"><a href="/termsofservice" class="nav-link footer-link px-2">Terms of Service</a></li>
+          <li class="nav-item ms-3">
+            <a class="nav-link footer-link px-2" href="https://x.com/plagueproducts" target="_blank" rel="noopener noreferrer" aria-label="Plague Products on X">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
                 <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
               </svg>
@@ -159,6 +159,7 @@
         </ul>
       </div>
     </footer>
+    </body>
 
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
