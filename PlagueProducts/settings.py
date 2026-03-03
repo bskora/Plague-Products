@@ -117,9 +117,19 @@ WSGI_APPLICATION = 'PlagueProducts.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+# Prefer DATABASE_URL for production-style deployments.
 if os.environ.get('DATABASE_URL', ''):
     DATABASES = {
         'default': dj_database_url.config()
+    }
+# Opt-in SQLite mode for containerized/dev environments where PostgreSQL
+# is unavailable (for example, Codex sandboxes).
+elif env.bool('DJANGO_USE_SQLITE', default=False) or os.environ.get('CODEX_ENV', '').lower() == 'true':
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
     }
 else:
     DATABASES = {
