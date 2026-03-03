@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="Froze runtime">
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="added new logo for enduring wilderness">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,11 +70,11 @@
       <recent name="C:\Users\treni\Desktop\Programs\PlagueProducts\main\static\main\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Previous_Computer\Programs\PlagueProducts\main\static\svg" />
       <recent name="D:\Previous_Computer\Programs\PlagueProducts\staticfiles\svg" />
       <recent name="D:\Previous_Computer\Programs\PlagueProducts\main\static\main\images" />
       <recent name="D:\Previous_Computer\Programs\PlagueProducts\main" />
       <recent name="D:\Previous_Computer\Programs\PlagueProducts\main\static\main\csss" />
-      <recent name="D:\Previous Computer\Programs\PlagueProducts\main\static\svg" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Django">
@@ -493,7 +493,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dark Wilderness has been replaced by Enduring Wilderness." />
     <MESSAGE value="Test to fix server" />
     <MESSAGE value="Fixing layout for official deployment" />
     <MESSAGE value="Reverted scss auto conversion to prevent lag." />
@@ -607,6 +606,7 @@
     <MESSAGE value="Changed date. Testing push." />
     <MESSAGE value="added runtime.txt" />
     <MESSAGE value="Froze runtime" />
-    <option name="LAST_COMMIT_MESSAGE" value="Froze runtime" />
+    <MESSAGE value="added new logo for enduring wilderness" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new logo for enduring wilderness" />
   </component>
 </project>
