@@ -12130,6 +12130,13 @@ body {
   text-align: center;
 }
 
+[data-aos] svg,
+[data-aos] svg * {
+  opacity: 1 !important;
+  filter: none !important;
+  forced-color-adjust: none !important;
+}
+
 .site-main {
   flex: 1 0 auto;
 }
