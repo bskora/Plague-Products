@@ -12078,6 +12078,11 @@ header {
   right: 3%; /* Positions arrow 5% from the right edge of the carousel */
 }
 
+:root,
+html {
+  color-scheme: light !important;
+}
+
 html,
 body {
   min-height: 100%;
@@ -12090,9 +12095,8 @@ body {
   background-color: #1b222c;
 }
 
-
 :root {
-  color-scheme: only light;
+  color-scheme: light !important;
   --site-main-bg: #f8f9fa;
   --site-main-text: #212529;
   --site-slogan-color: #000000;
