@@ -105,8 +105,39 @@
   (function () {
     const container = document.getElementById("x-posts-embed");
     const fallback = document.getElementById("x-posts-fallback");
+    const cooldownKey = "x-posts-cooldown-until";
+    const cooldownDurationMs = 30 * 60 * 1000;
+
+    function setCooldown() {
+      try {
+        window.localStorage.setItem(
+          cooldownKey,
+          String(Date.now() + cooldownDurationMs)
+        );
+      } catch (error) {
+        // Ignore storage failures (private browsing / disabled storage)
+      }
+    }
+
+    function hasCooldown() {
+      try {
+        const cooldownUntil = Number(window.localStorage.getItem(cooldownKey));
+        return Number.isFinite(cooldownUntil) && Date.now() < cooldownUntil;
+      } catch (error) {
+        return false;
+      }
+    }
+
+    function clearCooldown() {
+      try {
+        window.localStorage.removeItem(cooldownKey);
+      } catch (error) {
+        // Ignore storage failures (private browsing / disabled storage)
+      }
+    }
 
     function showFallback() {
+      setCooldown();
       fallback.classList.remove("d-none");
     }
 
@@ -132,6 +163,7 @@
         )
         .then(function (element) {
           if (element) {
+            clearCooldown();
             fallback.classList.add("d-none");
           } else {
             showFallback();
@@ -141,7 +173,16 @@
     }
 
     if (window.twttr && window.twttr.widgets) {
+      if (hasCooldown()) {
+        showFallback();
+        return;
+      }
       renderTimeline();
+      return;
+    }
+
+    if (hasCooldown()) {
+      showFallback();
       return;
     }
 
