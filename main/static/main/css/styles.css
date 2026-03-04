@@ -11975,8 +11975,13 @@ header {
 
 .game-card-image-fill {
   display: block;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
+}
+
+.game-card-image-fill--enduring {
+  transform: scale(1.35);
+  transform-origin: center;
 }
 
 .feature-card {
