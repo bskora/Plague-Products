@@ -29,6 +29,13 @@
 
     </head>
     <body>
+        {% url 'home' as home_url %}
+        {% url 'update' as updates_url %}
+        {% url 'enduringwilderness' as enduringwilderness_url %}
+        {% url 'code' as code_url %}
+        {% url 'privacypolicy' as privacypolicy_url %}
+        {% url 'termsofservice' as termsofservice_url %}
+
         <header class="bg-dark text-white shadow-header">
             <div class="d-flex mx-4 flex-grow-1">
               <nav class="navbar navbar-dark bg-dark flex-grow-1" style="padding-top: 0; padding-bottom: 0;">
@@ -37,23 +44,23 @@
                     <button class="justify-content-start navbar-toggler me-4 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="logo-svg me-4" href="/">
+                    <a class="logo-svg me-4" href="{{ home_url }}">
                         {% svg 'logo' %}
                     </a>
                   </div>
                   <ul class="nav mb-2 mb-lg-0 align-items-center d-none d-lg-flex ms-4">
                     <li>
-                      <a class="nav-link {% if request.path == '/updates/' %} active text-white {% else %} text-secondary {% endif %} fw-bolder" href="/updates/">
+                      <a class="nav-link {% if request.path == updates_url %} active text-white {% else %} text-secondary {% endif %} fw-bolder" href="{{ updates_url }}">
                         Updates
                       </a>
                     </li>
                     <li>
-                      <a class="nav-link {% if request.path == '/enduringwilderness/' %} active text-white {% else %} text-secondary {% endif %} fw-bolder" href="/enduringwilderness/">
+                      <a class="nav-link {% if request.path == enduringwilderness_url %} active text-white {% else %} text-secondary {% endif %} fw-bolder" href="{{ enduringwilderness_url }}">
                         Enduring Wilderness
                       </a>
                     </li>
                     <li>
-                      <a class="nav-link {% if request.path == '/code.net/' %} active text-white {% else %} text-secondary {% endif %} fw-bolder" href="/code.net/">
+                      <a class="nav-link {% if request.path == code_url %} active text-white {% else %} text-secondary {% endif %} fw-bolder" href="{{ code_url }}">
                         Code.Net
                       </a>
                     </li>
@@ -61,7 +68,7 @@
                   <div class="offcanvas offcanvas-start bg-dark text-white d-lg-none" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header justify-content-center position-relative" style="height: 60px;">
                         <a
-                            class="logo-svg" href="/">
+                            class="logo-svg" href="{{ home_url }}">
                             {% svg 'logo' %}
                         </a>
                         <button type="button"
@@ -74,17 +81,17 @@
                     <div class="offcanvas-body bg-light">
                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                          <a class="canvas-nav-link {% if request.path == '/updates/' %} active text-dark {% else %} text-secondary {% endif %} fw-bolder" href="/updates/">
+                          <a class="canvas-nav-link {% if request.path == updates_url %} active text-dark {% else %} text-secondary {% endif %} fw-bolder" href="{{ updates_url }}">
                             Updates
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="canvas-nav-link {% if request.path == '/enduringwilderness/' %} active text-dark {% else %} text-secondary {% endif %} fw-bolder" href="/enduringwilderness/">
+                          <a class="canvas-nav-link {% if request.path == enduringwilderness_url %} active text-dark {% else %} text-secondary {% endif %} fw-bolder" href="{{ enduringwilderness_url }}">
                             Enduring Wilderness
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="canvas-nav-link {% if request.path == '/code.net/' %} active text-dark {% else %} text-secondary {% endif %} fw-bolder" href="/code.net/">
+                          <a class="canvas-nav-link {% if request.path == code_url %} active text-dark {% else %} text-secondary {% endif %} fw-bolder" href="{{ code_url }}">
                             Code.Net
                           </a>
                         </li>
@@ -147,8 +154,8 @@
 
       <div class="col-md-4 d-flex justify-content-end">
         <ul class="nav">
-          <li class="nav-item"><a href="/privacypolicy/" class="nav-link footer-link px-2">Privacy Policy</a></li>
-          <li class="nav-item"><a href="/termsofservice" class="nav-link footer-link px-2">Terms of Service</a></li>
+          <li class="nav-item"><a href="{{ privacypolicy_url }}" class="nav-link footer-link px-2">Privacy Policy</a></li>
+          <li class="nav-item"><a href="{{ termsofservice_url }}" class="nav-link footer-link px-2">Terms of Service</a></li>
           <li class="nav-item ms-3">
             <a class="nav-link footer-link px-2" href="https://x.com/plagueproducts" target="_blank" rel="noopener noreferrer" aria-label="Plague Products on X">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
