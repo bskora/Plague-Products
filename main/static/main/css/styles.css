@@ -12080,7 +12080,7 @@ header {
 
 :root,
 html {
-  color-scheme: light !important;
+  color-scheme: only light !important;
 }
 
 html,
@@ -12096,7 +12096,7 @@ body {
 }
 
 :root {
-  color-scheme: light !important;
+  color-scheme: only light !important;
   --site-main-bg: #f8f9fa;
   --site-main-text: #212529;
   --site-slogan-color: #000000;
