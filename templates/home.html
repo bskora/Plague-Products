@@ -92,13 +92,8 @@
     <div class="row px-4 pb-5">
       <div class="col-12 col-lg-8">
         <h3 class="pb-2 border-bottom fw-bolder">Recent Posts</h3>
-        <a
-          class="twitter-timeline"
-          data-theme="light"
-          data-tweet-limit="5"
-          data-chrome="noheader nofooter"
-          href="https://x.com/plagueproducts"
-        >
+        <div id="x-posts-embed" class="mb-2"></div>
+        <a id="x-posts-fallback" class="d-none" href="https://x.com/plagueproducts" target="_blank" rel="noopener noreferrer">
           Posts by @plagueproducts
         </a>
       </div>
@@ -106,6 +101,64 @@
   </div>
 </div>
 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>
+  (function () {
+    const container = document.getElementById("x-posts-embed");
+    const fallback = document.getElementById("x-posts-fallback");
+
+    function showFallback() {
+      fallback.classList.remove("d-none");
+    }
+
+    function renderTimeline() {
+      if (!window.twttr || !window.twttr.widgets || !container) {
+        showFallback();
+        return;
+      }
+
+      window.twttr.widgets
+        .createTimeline(
+          {
+            sourceType: "profile",
+            screenName: "plagueproducts",
+          },
+          container,
+          {
+            theme: "light",
+            tweetLimit: 5,
+            chrome: "noheader nofooter",
+            dnt: true,
+          }
+        )
+        .then(function (element) {
+          if (element) {
+            fallback.classList.add("d-none");
+          } else {
+            showFallback();
+          }
+        })
+        .catch(showFallback);
+    }
+
+    if (window.twttr && window.twttr.widgets) {
+      renderTimeline();
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = "https://platform.twitter.com/widgets.js";
+    script.charset = "utf-8";
+    script.onload = renderTimeline;
+    script.onerror = showFallback;
+    document.head.appendChild(script);
+
+    window.setTimeout(function () {
+      if (!container.querySelector("iframe")) {
+        showFallback();
+      }
+    }, 6000);
+  })();
+</script>
 
 {%  endblock %}
