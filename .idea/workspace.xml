@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="corrected start date">
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="improved icons, fixed timing of when they appear.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/enduringwilderness.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/enduringwilderness.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -494,7 +494,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added content to enduring wilderness." />
     <MESSAGE value="Improved Text &amp; Layout&#10;- Added indicator and banner to notify Code.Net is no longer in active development.&#10;- Made all titles no longer all uppercase.&#10;- Added improved visuals for the link navigator.&#10;- Improved descriptions for features in Enduring Wilderness.&#10;- Added more &quot;coming soon&quot; features to Enduring Wilderness." />
     <MESSAGE value="Navigation Link Mobile View Fix" />
     <MESSAGE value="Navigation Link Mobile View Fix and Improvements" />
@@ -608,6 +607,7 @@
     <MESSAGE value="fixed spacing for alert-info" />
     <MESSAGE value="fixed sizing of enduring wilderness logo. Removed x latest posts since it's unreliable." />
     <MESSAGE value="corrected start date" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected start date" />
+    <MESSAGE value="improved icons, fixed timing of when they appear." />
+    <option name="LAST_COMMIT_MESSAGE" value="improved icons, fixed timing of when they appear." />
   </component>
 </project>
