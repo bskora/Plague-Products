@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="testing to no longer use svg which causes issues to some web browsers" />
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="testing to no longer use svg which causes issues to some web browsers">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -491,7 +496,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

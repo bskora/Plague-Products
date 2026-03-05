@@ -11976,11 +11976,14 @@ header {
 }
 
 .game-card-image {
+  position: relative;
   width: 100%;
-  aspect-ratio: 5/6;
+  padding-top: 120%;
 }
 
 .game-card-image-fill {
+  position: absolute;
+  inset: 0;
   display: block;
   width: 100%;
   height: 100%;
@@ -11988,9 +11991,10 @@ header {
   object-position: center;
 }
 
-.game-card-image-fill--enduring {
-  transform: scale(1.39);
-  transform-origin: center;
+.game-card-cover{
+  object-fit: cover;        /* fills, crops edges */
+  object-position: center;  /* crop from center */
+  display: block;
 }
 
 .feature-card {
