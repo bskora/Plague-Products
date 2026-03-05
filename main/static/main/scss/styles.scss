@@ -346,23 +346,24 @@ header ul.nav li {
 }
 
 .updates-view {
-  --updates-card-bg: #1f2937;
-  --updates-card-border: rgba(17, 24, 39, 0.22);
-  --updates-card-header-text: #f8fafc;
-  --updates-card-meta: #dbe5f0;
-  --updates-card-body-bg: #ffffff;
-  --updates-card-body-text: #1f2933;
+  --updates-card-meta: color-mix(in srgb, var(--feature-card-text), white 15%);
   --updates-card-link: #0b5ed7;
   --updates-card-link-hover: #084298;
 
   .updates-card {
-    background-color: var(--updates-card-bg);
-    border: 1px solid var(--updates-card-border);
+    background: linear-gradient(135deg, var(--feature-card-bg-start), var(--feature-card-bg-end));
+    color: var(--feature-card-text);
+    box-shadow: 0 4px 8px var(--feature-card-shadow);
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 12px 24px var(--feature-card-hover-shadow);
+    }
   }
 
   .updates-card-header {
-    background-color: var(--updates-card-bg);
-    color: var(--updates-card-header-text);
+    background-color: transparent;
+    color: inherit;
 
     .card-title {
       color: inherit;
@@ -374,8 +375,8 @@ header ul.nav li {
   }
 
   .updates-card-body {
-    background-color: var(--updates-card-body-bg);
-    color: var(--updates-card-body-text);
+    background-color: transparent;
+    color: inherit;
 
     a {
       color: var(--updates-card-link);
@@ -390,12 +391,7 @@ header ul.nav li {
 }
 
 [data-bs-theme="dark"] .updates-view {
-  --updates-card-bg: #202a36;
-  --updates-card-border: rgba(148, 163, 184, 0.25);
-  --updates-card-header-text: #f8fafc;
-  --updates-card-meta: #e2e8f0;
-  --updates-card-body-bg: #111a24;
-  --updates-card-body-text: #e5ebf2;
+  --updates-card-meta: color-mix(in srgb, var(--feature-card-text), white 20%);
   --updates-card-link: #8ab4ff;
   --updates-card-link-hover: #c7ddff;
 }
