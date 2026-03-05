@@ -219,9 +219,14 @@
 
 .feature-card {
   background: linear-gradient(135deg, #f8f9fa, #ffffff);
+  color: #1f2933;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
   transition: transform 0.2s ease-in-out;
+}
+
+.feature-card .card-body {
+  color: inherit;
 }
 
 .feature-card:hover {
@@ -12046,6 +12051,10 @@ textarea.form-control-lg {
   --site-divider-border: rgba(255, 255, 255, 0.09);
   --site-divider-shadow-outer: rgba(0, 0, 0, 0.35);
   --site-divider-shadow-inner: rgba(0, 0, 0, 0.28);
+}
+
+[data-bs-theme=dark] .feature-card {
+  color: #1f2933;
 }
 
 html,
