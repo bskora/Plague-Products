@@ -181,23 +181,23 @@
 }
 
 [data-bs-theme="dark"] {
-  --site-main-bg: #121821;
-  --site-main-text: #d5dde7;
-  --site-slogan-color: #e5ebf2;
-  --site-header-bg: #2a3340;
-  --site-header-text: #e5ebf2;
-  --site-header-muted: #b6c1ce;
+  --site-main-bg: #121212;
+  --site-main-text: #e3e3e3;
+  --site-slogan-color: #f0f0f0;
+  --site-header-bg: #1d1d1d;
+  --site-header-text: #f0f0f0;
+  --site-header-muted: #c4c4c4;
   --site-header-hover: rgba(255, 255, 255, 0.12);
   --site-header-active: #ffffff;
-  --site-offcanvas-bg: #1b2430;
-  --site-footer-bg: #1a222d;
-  --site-footer-text: #d5dde7;
-  --site-footer-link: #d5dde7;
+  --site-offcanvas-bg: #181818;
+  --site-footer-bg: #161616;
+  --site-footer-text: #e3e3e3;
+  --site-footer-link: #d0d0d0;
   --site-footer-link-hover: #ffffff;
-  --site-divider-bg: rgba(255, 255, 255, 0.06);
-  --site-divider-border: rgba(255, 255, 255, 0.09);
-  --site-divider-shadow-outer: rgba(0, 0, 0, 0.35);
-  --site-divider-shadow-inner: rgba(0, 0, 0, 0.28);
+  --site-divider-bg: rgba(255, 255, 255, 0.08);
+  --site-divider-border: rgba(255, 255, 255, 0.12);
+  --site-divider-shadow-outer: rgba(0, 0, 0, 0.42);
+  --site-divider-shadow-inner: rgba(0, 0, 0, 0.32);
 }
 
 html,
