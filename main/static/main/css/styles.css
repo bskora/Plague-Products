@@ -340,14 +340,14 @@ header ul.nav li {
 }
 
 .updates-view {
-  --updates-card-bg: var(--bs-card-cap-bg, var(--bs-card-bg));
-  --updates-card-border: var(--bs-card-border-color);
-  --updates-card-header-text: var(--bs-card-color, var(--bs-body-color));
-  --updates-card-meta: var(--bs-secondary-color);
-  --updates-card-body-bg: var(--bs-card-bg);
-  --updates-card-body-text: var(--bs-card-color, var(--bs-body-color));
-  --updates-card-link: var(--bs-link-color);
-  --updates-card-link-hover: var(--bs-link-hover-color);
+  --updates-card-bg: #1f2937;
+  --updates-card-border: rgba(17, 24, 39, 0.22);
+  --updates-card-header-text: #f8fafc;
+  --updates-card-meta: #dbe5f0;
+  --updates-card-body-bg: #ffffff;
+  --updates-card-body-text: #1f2933;
+  --updates-card-link: #0b5ed7;
+  --updates-card-link-hover: #084298;
 }
 
 .updates-view .updates-card {
@@ -382,5 +382,15 @@ header ul.nav li {
   color: var(--updates-card-link-hover);
 }
 
+[data-bs-theme="dark"] .updates-view {
+  --updates-card-bg: #202a36;
+  --updates-card-border: rgba(148, 163, 184, 0.25);
+  --updates-card-header-text: #f8fafc;
+  --updates-card-meta: #e2e8f0;
+  --updates-card-body-bg: #111a24;
+  --updates-card-body-text: #e5ebf2;
+  --updates-card-link: #8ab4ff;
+  --updates-card-link-hover: #c7ddff;
+}
 
 /*# sourceMappingURL=../css/styles.css.map */
