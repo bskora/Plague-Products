@@ -11973,8 +11973,11 @@ header {
 
 .game-card-media {
   width: 100%;
-  aspect-ratio: 5/6;
   overflow: hidden;
+}
+
+.ratio-5x6 {
+  --bs-aspect-ratio: 120%;
 }
 
 .game-card-cover {
