@@ -18,119 +18,25 @@
 }
 
 .logo-svg {
-    width: 100px; /* Has to be set to something otherwise wont work */
-    height: 60px;
-    color: #ffffff;
+  width: 100px;
+  height: 60px;
 }
 
-.logo-svg svg,
-.logo-svg svg * {
-  fill: #ffffff !important;
-  stroke: #ffffff !important;
+.logo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
-/* Exclude logo from link effects */
-header a.logo-svg {
-    display: flex;
-    background: none;
-    color: #ffffff;
-    text-decoration: none;
-    transition: none;
-}
-
-/* Hover effect for links */
-header a.nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Subtle light background */
-    color: #ffffff !important;
-}
-
-/* Update the navigation link styles */
-header a.nav-link {
-    color: #b0b0b0; /* Default gray text */
-    text-decoration: none;
-    padding: 0 16px; /* Remove top and bottom padding */
-    display: flex; /* Use Flexbox to align content */
-    align-items: center;
-    justify-content: center;
-    height: 100%; /* Fill the parent li */
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-header a.nav-link.active {
-    color: #fff; /* White text */
-    border-bottom: 2px solid #ffffff; /* Accent color for active link */
-}
-
-/* Update the navigation link styles */
-header a.canvas-nav-link {
-    color: #b0b0b0; /* Default gray text */
-    text-decoration: none;
-    padding: 0 16px; /* Remove top and bottom padding */
-    display: flex; /* Use Flexbox to align content */
-    align-items: center;
-    justify-content: center;
-    height: 100%; /* Fill the parent li */
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-header a.canvas-nav-link.active {
-    color: #000; /* White text */
-    border-bottom: 2px solid #000000; /* Accent color for active link */
-}
-
-/* Make the ul.nav fill the header height */
-header ul.nav {
-    display: flex;
-    align-items: stretch; /* Allow li elements to stretch */
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-/* Make the li elements fill the ul.nav height */
-header ul.nav li {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-  background-color: $dark; // Use a dark background if you have a color variable
-  color: white;
-
-  // Add the shadow effect below the header
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-  z-index: 10; // Ensure it stays on top of other elements
-}
-
-.navbar-toggler {
-  border: none !important; // Force removal of borders
-  outline: none !important; // Remove any focus outline
-  box-shadow: none !important; // Remove any shadow
-  transition: background-color 0.2s ease; // Smooth hover effect
-
-  &:hover {
-    background-color: rgba(255, 255, 255, 0.1); // Optional: Hover effect
-  }
-
-  &:focus:not(:focus-visible),
-  &:active {
-    border: none !important; // Ensure no border appears
-    outline: none !important; // No focus outline
-    box-shadow: none !important; // No shadow effect
-  }
-}
 
 .game-card {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   overflow: hidden;
+}
 
-  &:hover {
-    transform: scale(1.05);  /* Scale the entire card */
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);  // Enhance the shadow effect
-  }
+.game-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
 .game-card-media {
@@ -154,7 +60,6 @@ header {
   transition: transform 0.2s ease-in-out;
 }
 
-
 .feature-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
@@ -163,7 +68,7 @@ header {
 .feature-icon {
   width: 48px;
   height: 48px;
-  background-color: #fffbe6; /* Example light yellow background */
+  background-color: #fffbe6;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -174,31 +79,30 @@ header {
 .modern-nav {
   display: flex;
   justify-content: center;
-  gap: 15px; // Space between navigation links
+  gap: 15px;
+}
 
-  .modern-link {
-    color: #4a773c; // Earthy green color for text
-    font-size: 1.1rem; // Font size for readability
-    font-weight: 600; // Semi-bold for emphasis
-    text-decoration: none; // Remove underline
-    padding: 10px 20px; // Padding for button effect
-    border-radius: 8px; // Rounded corners for button shape
-    background-color: #f2f2f0; // Light background to make it look like a button
-    transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+.modern-nav .modern-link {
+  color: #4a773c;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #f2f2f0;
+  transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
 
-    &:hover {
-      background-color: #e6e6e3; // Slightly darker background on hover
-      color: #3e6532; // Darker green on hover
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); // Subtle shadow on hover
-    }
+.modern-nav .modern-link:hover {
+  background-color: #e6e6e3;
+  color: #3e6532;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-    &.active {
-      background-color: #4a773c; // Darker green for active state
-      color: #ffffff; // White text for contrast in active state
-      border-radius: 8px; // Keep button shape consistent
-    }
-  }
-
+.modern-nav .modern-link.active {
+  background-color: #4a773c;
+  color: #ffffff;
+  border-radius: 8px;
 }
 
 .informative-header {
@@ -208,53 +112,84 @@ header {
 }
 
 #game-screenshots-carousel {
-    position: relative; /* Allows absolute positioning within */
-    width: 100%; /* Carousel takes up available width */
-    max-width: 300px; /* Ensures carousel doesn't exceed image width */
-    margin: 0 auto; /* Centers the carousel */
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 #game-screenshots-carousel .carousel-inner {
-    width: 100%; /* Matches the carousel's width */
+  width: 100%;
 }
 
 #game-screenshots-carousel .carousel-inner img {
-    width: 100%; /* Images scale with the carousel */
-    height: auto;
-    object-fit: contain;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 #game-screenshots-carousel .carousel-control-prev,
 #game-screenshots-carousel .carousel-control-next {
-    position: absolute;
-    top: 50%; /* Centers arrows vertically */
-    transform: translateY(-50%);
-    z-index: 2;
-    width: 30px;
-    height: 30px;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional styling */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #game-screenshots-carousel .carousel-control-prev {
-    left: 3%; /* Positions arrow 5% from the left edge of the carousel */
+  left: 3%;
 }
 
 #game-screenshots-carousel .carousel-control-next {
-    right: 3%; /* Positions arrow 5% from the right edge of the carousel */
-}
-
-:root,
-html {
-  color-scheme: only light !important;
+  right: 3%;
 }
 
 :root {
-  --site-main-bg: #f8f9fa;
-  --site-main-text: #212529;
-  --site-slogan-color: #212529;
+  --site-main-bg: #f5f7fb;
+  --site-main-text: #1f2933;
+  --site-slogan-color: #34495e;
+  --site-header-bg: #eef2f8;
+  --site-header-text: #25303b;
+  --site-header-muted: #58677a;
+  --site-header-hover: rgba(24, 38, 56, 0.08);
+  --site-header-active: #111827;
+  --site-offcanvas-bg: #f5f7fb;
+  --site-footer-bg: #e9eef5;
+  --site-footer-text: #1f2933;
+  --site-footer-link: #2f3f50;
+  --site-footer-link-hover: #111827;
+  --site-logo-bg: #ffffff;
+  --site-divider-bg: rgba(15, 23, 42, 0.06);
+  --site-divider-border: rgba(15, 23, 42, 0.08);
+  --site-divider-shadow-outer: rgba(15, 23, 42, 0.08);
+  --site-divider-shadow-inner: rgba(15, 23, 42, 0.05);
+}
+
+[data-bs-theme="dark"] {
+  --site-main-bg: #121821;
+  --site-main-text: #d5dde7;
+  --site-slogan-color: #e5ebf2;
+  --site-header-bg: #2a3340;
+  --site-header-text: #e5ebf2;
+  --site-header-muted: #b6c1ce;
+  --site-header-hover: rgba(255, 255, 255, 0.12);
+  --site-header-active: #ffffff;
+  --site-offcanvas-bg: #1b2430;
+  --site-footer-bg: #1a222d;
+  --site-footer-text: #d5dde7;
+  --site-footer-link: #d5dde7;
+  --site-footer-link-hover: #ffffff;
+  --site-logo-bg: #f8fafc;
+  --site-divider-bg: rgba(255, 255, 255, 0.06);
+  --site-divider-border: rgba(255, 255, 255, 0.09);
+  --site-divider-shadow-outer: rgba(0, 0, 0, 0.35);
+  --site-divider-shadow-inner: rgba(0, 0, 0, 0.28);
 }
 
 html,
@@ -266,7 +201,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #1b222c;
+  background-color: var(--site-main-bg);
+  color: var(--site-main-text);
 }
 
 .site-main {
@@ -279,16 +215,112 @@ body {
   color: var(--site-slogan-color);
 }
 
-footer {
+.divider-small {
+  background-color: var(--site-divider-bg);
+  border-color: var(--site-divider-border);
+  box-shadow: inset 0 0.25em 0.75em var(--site-divider-shadow-outer), inset 0 0.0625em 0.25em var(--site-divider-shadow-inner);
+}
+
+.site-header,
+.site-navbar {
+  background-color: var(--site-header-bg) !important;
+  color: var(--site-header-text);
+}
+
+header a.logo-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--site-logo-bg);
+  border-radius: 10px;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+header a.nav-link,
+header a.canvas-nav-link {
+  color: var(--site-header-muted);
+  text-decoration: none;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header a.nav-link:hover,
+header a.canvas-nav-link:hover {
+  background-color: var(--site-header-hover);
+  color: var(--site-header-text) !important;
+}
+
+header a.nav-link.active,
+header a.canvas-nav-link.active {
+  color: var(--site-header-active);
+  border-bottom: 2px solid currentColor;
+}
+
+header ul.nav {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header ul.nav li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.site-offcanvas,
+.site-offcanvas-body {
+  background-color: var(--site-offcanvas-bg) !important;
+  color: var(--site-header-text);
+}
+
+.site-btn-close {
+  filter: var(--bs-btn-close-white-filter);
+}
+
+[data-bs-theme="light"] .site-btn-close {
+  filter: none;
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: var(--site-header-hover);
+  }
+
+  &:focus:not(:focus-visible),
+  &:active {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.site-footer {
   margin-top: auto;
+  background-color: var(--site-footer-bg) !important;
+  color: var(--site-footer-text) !important;
 }
 
 .footer-link {
-  color: #f8f9fa !important;
+  color: var(--site-footer-link) !important;
   transition: color 0.2s ease;
 }
 
 .footer-link:hover,
 .footer-link:focus {
-  color: #c7ced6 !important;
+  color: var(--site-footer-link-hover) !important;
 }
