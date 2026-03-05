@@ -109,6 +109,11 @@
   border-radius: 8px;
 }
 
+.game-card-cover-zoom {
+  transform: scale(1.4);
+  transform-origin: center;
+}
+
 .informative-header {
   font-size: 1.75em;
   margin-top: 30px;
