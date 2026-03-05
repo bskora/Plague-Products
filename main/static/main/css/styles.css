@@ -11963,33 +11963,13 @@ header {
 
 .game-card {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  overflow: hidden;
 }
 .game-card:hover {
   transform: scale(1.05); /* Scale the entire card */
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
-.game-card-image svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.game-card-image {
-  position: relative;
-  width: 100%;
-  padding-top: 120%;
-}
-
-.game-card-image-fill {
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
 
 .game-card-media {
   width: 100%;
