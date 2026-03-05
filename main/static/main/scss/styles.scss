@@ -303,6 +303,16 @@ header ul.nav li {
   color: var(--site-header-text);
 }
 
+.site-offcanvas .navbar-nav {
+  gap: 0.75rem;
+  padding-top: 1rem;
+}
+
+.site-offcanvas .navbar-nav .canvas-nav-link {
+  padding: 0.375rem 1rem;
+  min-height: 2.5rem;
+}
+
 .site-btn-close {
   filter: var(--bs-btn-close-white-filter);
 }
