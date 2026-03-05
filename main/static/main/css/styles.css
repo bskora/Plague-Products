@@ -12022,7 +12022,6 @@ textarea.form-control-lg {
   --site-footer-text: #1f2933;
   --site-footer-link: #2f3f50;
   --site-footer-link-hover: #111827;
-  --site-logo-bg: #ffffff;
   --site-divider-bg: rgba(15, 23, 42, 0.06);
   --site-divider-border: rgba(15, 23, 42, 0.08);
   --site-divider-shadow-outer: rgba(15, 23, 42, 0.08);
@@ -12043,7 +12042,6 @@ textarea.form-control-lg {
   --site-footer-text: #d5dde7;
   --site-footer-link: #d5dde7;
   --site-footer-link-hover: #ffffff;
-  --site-logo-bg: #f8fafc;
   --site-divider-bg: rgba(255, 255, 255, 0.06);
   --site-divider-border: rgba(255, 255, 255, 0.09);
   --site-divider-shadow-outer: rgba(0, 0, 0, 0.35);
@@ -12089,11 +12087,13 @@ body {
 
 header a.logo-svg {
   display: flex;
+  width: 100px;
+  height: 60px;
   align-items: center;
   justify-content: center;
-  background-color: var(--site-logo-bg);
-  border-radius: 10px;
-  padding: 4px 8px;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
   text-decoration: none;
 }
 
