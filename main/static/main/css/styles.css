@@ -11988,6 +11988,11 @@ header {
   object-position: center;
 }
 
+.game-card-cover-zoom {
+  transform: scale(1.4);
+  transform-origin: center;
+}
+
 .feature-card {
   background: linear-gradient(135deg, #f8f9fa, #ffffff);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
