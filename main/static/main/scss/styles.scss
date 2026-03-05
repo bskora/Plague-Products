@@ -139,6 +139,11 @@ header {
   display: block;
 }
 
+.game-card-image {
+  width: 100%;
+  aspect-ratio: 5 / 6;
+}
+
 .game-card-image-fill {
   display: block;
   width: 100%;
