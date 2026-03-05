@@ -355,6 +355,7 @@ header ul.nav li {
   --updates-card-meta: color-mix(in srgb, var(--feature-card-text), white 15%);
   --updates-card-link: #0b5ed7;
   --updates-card-link-hover: #084298;
+  --updates-card-header-bg: color-mix(in srgb, var(--feature-card-bg-start), black 12%);
 }
 
 .updates-view .updates-card {
@@ -369,7 +370,8 @@ header ul.nav li {
 }
 
 .updates-view .updates-card-header {
-  background-color: transparent;
+  background-color: var(--updates-card-header-bg);
+  border-bottom-color: color-mix(in srgb, var(--feature-card-text), transparent 85%);
   color: inherit;
 }
 
@@ -399,6 +401,7 @@ header ul.nav li {
   --updates-card-meta: color-mix(in srgb, var(--feature-card-text), white 20%);
   --updates-card-link: #8ab4ff;
   --updates-card-link-hover: #c7ddff;
+  --updates-card-header-bg: color-mix(in srgb, var(--feature-card-bg-start), black 20%);
 }
 
 /*# sourceMappingURL=../css/styles.css.map */
