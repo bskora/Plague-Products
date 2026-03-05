@@ -2,7 +2,7 @@
 
 {% block maininfo %}
 <!--Carousel-->
-{% load static svg %}
+{% load static %}
 <!--<div id="carouselhome" class="carousel slide" data-bs-ride="carousel" style="width: 450px; margin: auto">-->
 <!--  <div class="carousel-indicators">-->
 <!--    <button type="button" data-bs-target="#carouselhome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>-->
@@ -40,6 +40,7 @@
       <div class="col">
         <a href="/enduringwilderness/" style="text-decoration: none; color: inherit">
           <div class="card game-card shadow-sm">
+            {% load svg %}
             <div class="bd-placeholder-img card-img-top game-card-image overflow-hidden" style="height: 300px;">
               {% svg 'enduring-wilderness-logo' %}
             </div>
