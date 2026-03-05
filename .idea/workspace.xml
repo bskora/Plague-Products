@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="testing to no longer use svg which causes issues to some web browsers">
+    <list default="true" id="61388996-5eaf-4aef-b5a5-d877b524123d" name="Changes" comment="fixed enduring wilderness image.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -493,7 +493,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663728467504</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Navigation Mobile Improvements&#10;- Navigation for mobile is now fully functional and modernized.&#10;- Reduced size of slogan.&#10;- Added alert for Enduring Wilderness to signify active development/subject to change.&#10;- Fixed Updates layout." />
     <MESSAGE value="Added Animations&#10;- Animations added to home and Enduring Wilderness pages.&#10;- Improved Enduring Wilderness layout." />
     <MESSAGE value="Improved Enduring Wilderness Section&#10;- Added images.&#10;- Added core features." />
     <MESSAGE value="Implemented Enduring Wilderness Features&#10;- Added to the implemented features list.&#10;- Removed descriptions to implemented features." />
@@ -607,6 +606,7 @@
     <MESSAGE value="Force light mode only. Updated bootstrap version." />
     <MESSAGE value="Test on svg" />
     <MESSAGE value="testing to no longer use svg which causes issues to some web browsers" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing to no longer use svg which causes issues to some web browsers" />
+    <MESSAGE value="fixed enduring wilderness image." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed enduring wilderness image." />
   </component>
 </project>
