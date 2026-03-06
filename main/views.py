@@ -9,7 +9,7 @@ class NewsView(ListView):
 
     def get_queryset(self, *args, **kwargs):
         qs = super(NewsView, self).get_queryset(*args, **kwargs)
-        qs = qs.order_by("-id")
+        qs = qs.order_by("-date", "-id")
         return qs
 
 def home(response):

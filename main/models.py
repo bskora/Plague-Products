@@ -7,7 +7,8 @@ from django_quill.quill import QuillParseError
 # Create your models here.
 class Post(models.Model):
     title = models.CharField(max_length=255)
-    date = models.DateField(auto_now=True)
+    date = models.DateField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
     body = QuillField(blank=True, null=True)
 
     @property
