@@ -128,18 +128,6 @@
   transform-origin: center;
 }
 
-.faq-item h3 {
-  color: var(--faq-item-text);
-}
-
-.faq-item .text-muted {
-  color: var(--faq-item-muted) !important;
-}
-
-.faq-item a {
-  color: var(--faq-item-text);
-}
-
 .informative-header {
   font-size: 1.75em;
   margin-top: 30px;
@@ -217,12 +205,10 @@
   --ew-nav-link-active-end: #3f5b32;
   --ew-nav-link-active-text: #f8fcf4;
   --ew-nav-link-active-border: #5f8250;
-  --faq-item-bg-start: var(--feature-card-bg-start);
-  --faq-item-bg-end: var(--feature-card-bg-end);
-  --faq-item-border: color-mix(in srgb, var(--feature-card-text), transparent 82%);
-  --faq-item-shadow: var(--feature-card-shadow);
-  --faq-item-text: var(--feature-card-text);
-  --faq-item-muted: color-mix(in srgb, var(--feature-card-text), transparent 18%);
+  --faq-item-bg-start: #ffffff;
+  --faq-item-bg-end: #f4f7f1;
+  --faq-item-border: rgba(63, 91, 50, 0.2);
+  --faq-item-shadow: rgba(15, 23, 42, 0.08);
   --feature-card-bg-start: #f8f9fa;
   --feature-card-bg-end: #ffffff;
   --feature-card-text: #1f2933;
@@ -262,12 +248,10 @@
   --ew-nav-link-active-end: #6f8e5d;
   --ew-nav-link-active-text: #0f1a13;
   --ew-nav-link-active-border: #9ec186;
-  --faq-item-bg-start: var(--feature-card-bg-start);
-  --faq-item-bg-end: var(--feature-card-bg-end);
-  --faq-item-border: color-mix(in srgb, var(--feature-card-text), transparent 82%);
-  --faq-item-shadow: var(--feature-card-shadow);
-  --faq-item-text: var(--feature-card-text);
-  --faq-item-muted: color-mix(in srgb, var(--feature-card-text), white 30%);
+  --faq-item-bg-start: #1b2430;
+  --faq-item-bg-end: #121a24;
+  --faq-item-border: rgba(158, 193, 134, 0.35);
+  --faq-item-shadow: rgba(0, 0, 0, 0.42);
   --feature-card-bg-start: #1b2430;
   --feature-card-bg-end: #111827;
   --feature-card-text: #e5e7eb;
