@@ -22,10 +22,12 @@
                                 <span class="updates-card-pill-label">Published</span>
                                 <time datetime="{{ post.date|date:'Y-m-d' }}">{{ post.date|date:"M j, Y" }}</time>
                             </span>
-                            <span class="updates-card-pill" title="Last update">
-                                <span class="updates-card-pill-label">Updated</span>
+                            {% if post.is_edited %}
+                            <span class="updates-card-pill" title="Last edit">
+                                <span class="updates-card-pill-label">Edited</span>
                                 <time datetime="{{ post.updated_at|date:'Y-m-d' }}">{{ post.updated_at|date:"M j, Y" }}</time>
                             </span>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
