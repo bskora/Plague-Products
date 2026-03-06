@@ -10,19 +10,29 @@
   <div class="container">
     <h2 class="pb-2 border-bottom fw-bolder">Updates</h2>
 
-        <div class="row row-cols-1 g-3 mt-3">
+        <div class="row row-cols-1 g-4 mt-3">
           {% for post in object_list %}
           <div class="col">
-            <div class="card updates-card mb-4" style="border-radius: 10px; overflow: hidden;">
+            <article class="card updates-card mb-1">
                 <div class="card-header updates-card-header">
-                    <p class="card-text mb-1"><small class="updates-card-meta">Published {{ post.date|date:"F j, Y" }}</small></p>
-                    <p class="card-text mb-1"><small class="updates-card-meta">Updated {{ post.updated_at|date:"F j, Y, P" }}</small></p>
-                    <h5 class="card-title">{{ post.title }}</h5>
+                    <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+                        <h5 class="card-title mb-0">{{ post.title }}</h5>
+                        <div class="updates-card-meta-row d-flex flex-wrap gap-2">
+                            <span class="updates-card-pill" title="Published date">
+                                <span class="updates-card-pill-label">Published</span>
+                                <time datetime="{{ post.date|date:'Y-m-d' }}">{{ post.date|date:"M j, Y" }}</time>
+                            </span>
+                            <span class="updates-card-pill" title="Last update">
+                                <span class="updates-card-pill-label">Updated</span>
+                                <time datetime="{{ post.updated_at|date:'Y-m-d' }}">{{ post.updated_at|date:"M j, Y" }}</time>
+                            </span>
+                        </div>
+                    </div>
                 </div>
                 <div class="card-body updates-card-body">
                     {{ post.body_html | safe }}
                 </div>
-            </div>
+            </article>
           </div>
       {% endfor %}
     </div>
