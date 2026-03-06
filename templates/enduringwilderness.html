@@ -20,22 +20,24 @@
 </div>
 
 <!-- Modern Navigation Links -->
-<!--<div class="container mb-4 custom-nav-container">-->
-<!--  <nav class="nav justify-content-center p-3 modern-nav">-->
-<!--    <a class="nav-link modern-link mx-2" href="#game-features" style="font-weight: 700; background-color: #f2f2f0;">Game Features</a>-->
-<!--    <a class="nav-link modern-link mx-2" href="#implemented-features" style="font-weight: 700; background-color: #f2f2f0">Current Features</a>-->
-<!--    <a class="nav-link modern-link mx-2" href="#upcoming-features" style="font-weight: 700; background-color: #f2f2f0">Upcoming Features</a>-->
-<!--  </nav>-->
-<!--</div>-->
+<div class="container mb-4 custom-nav-container">
+  <nav class="nav justify-content-center gap-2 p-2 modern-nav flex-wrap" aria-label="Section navigation">
+    <a class="nav-link modern-link px-3 py-2 rounded-pill border" href="#screenshots">Screenshots</a>
+    <a class="nav-link modern-link px-3 py-2 rounded-pill border" href="#game-features">Game Features</a>
+    <a class="nav-link modern-link px-3 py-2 rounded-pill border" href="#implemented-features">Current Features</a>
+    <a class="nav-link modern-link px-3 py-2 rounded-pill border" href="#upcoming-features">Upcoming Features</a>
+    <a class="nav-link modern-link px-3 py-2 rounded-pill border" href="#faq">FAQ</a>
+  </nav>
+</div>
 
 <div class="divider"></div>
 
 <div id="screenshots" class="container px-4 py-5">
   <h2 class="pb-2 border-bottom fw-bolder">Screenshots</h2>
   <p class="text-muted mb-0 mt-3">
-    Major updates are on the way and will change the game significantly. To avoid outdated impressions,
-    please follow the latest screenshots on
-    <a href="https://x.com/plagueproducts" target="_blank" rel="noopener noreferrer">X (@plagueproducts)</a>.
+    The in-page carousel is intentionally still disabled while core visuals are being refreshed.
+    For the latest screenshots, clips, and milestone updates, follow
+    <a href="https://x.com/plagueproducts" target="_blank" rel="noopener noreferrer">@plagueproducts on X</a>.
   </p>
 
 <!--{% load static %}-->
@@ -589,6 +591,96 @@
           </div>
         </div>
       </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<div id="faq" class="container px-4 py-5">
+  <h2 class="pb-2 border-bottom fw-bolder">FAQ</h2>
+
+  <div class="accordion mt-4" id="ew-faq-accordion">
+    <div class="accordion-item">
+      <h3 class="accordion-header" id="faq-monetization-heading">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-monetization" aria-expanded="true" aria-controls="faq-monetization">
+          How will the game be monetized?
+        </button>
+      </h3>
+      <div id="faq-monetization" class="accordion-collapse collapse show" aria-labelledby="faq-monetization-heading" data-bs-parent="#ew-faq-accordion">
+        <div class="accordion-body text-muted">
+          Enduring Wilderness is free to play and can be enjoyed indefinitely without a purchase.
+          Optional purchases may be offered later to unlock the full experience or new content as development evolves.
+          The final model is still being finalized.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h3 class="accordion-header" id="faq-multiplayer-heading">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-multiplayer" aria-expanded="false" aria-controls="faq-multiplayer">
+          Will the game have multiplayer?
+        </button>
+      </h3>
+      <div id="faq-multiplayer" class="accordion-collapse collapse" aria-labelledby="faq-multiplayer-heading" data-bs-parent="#ew-faq-accordion">
+        <div class="accordion-body text-muted">
+          Enduring Wilderness is being built as a single-player-first game, with planned multiplayer features designed for direct player-to-player connections without centralized servers.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h3 class="accordion-header" id="faq-platforms-heading">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-platforms" aria-expanded="false" aria-controls="faq-platforms">
+          What platforms will the game be available on?
+        </button>
+      </h3>
+      <div id="faq-platforms" class="accordion-collapse collapse" aria-labelledby="faq-platforms-heading" data-bs-parent="#ew-faq-accordion">
+        <div class="accordion-body text-muted">
+          Development is currently focused on Android.
+          iOS support may follow after the initial release.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h3 class="accordion-header" id="faq-gps-heading">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-gps" aria-expanded="false" aria-controls="faq-gps">
+          Does the game use GPS tracking?
+        </button>
+      </h3>
+      <div id="faq-gps" class="accordion-collapse collapse" aria-labelledby="faq-gps-heading" data-bs-parent="#ew-faq-accordion">
+        <div class="accordion-body text-muted">
+          No. Enduring Wilderness uses a step counter instead of GPS, so gameplay is not restricted by real-world location.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h3 class="accordion-header" id="faq-weather-heading">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-weather" aria-expanded="false" aria-controls="faq-weather">
+          Does the game use real-world weather or environmental data?
+        </button>
+      </h3>
+      <div id="faq-weather" class="accordion-collapse collapse" aria-labelledby="faq-weather-heading" data-bs-parent="#ew-faq-accordion">
+        <div class="accordion-body text-muted">
+          No. Core systems are designed to stay fair and consistent regardless of local weather or environmental conditions.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h3 class="accordion-header" id="faq-follow-heading">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-follow" aria-expanded="false" aria-controls="faq-follow">
+          Where can I follow development?
+        </button>
+      </h3>
+      <div id="faq-follow" class="accordion-collapse collapse" aria-labelledby="faq-follow-heading" data-bs-parent="#ew-faq-accordion">
+        <div class="accordion-body text-muted">
+          Development notes, major feature updates, and progress milestones are posted on
+          <a href="https://x.com/plagueproducts" target="_blank" rel="noopener noreferrer">X (@plagueproducts)</a>.
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
