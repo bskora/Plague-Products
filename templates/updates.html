@@ -15,7 +15,8 @@
           <div class="col">
             <div class="card updates-card mb-4" style="border-radius: 10px; overflow: hidden;">
                 <div class="card-header updates-card-header">
-                    <p class="card-text mb-1"><small class="updates-card-meta">Posted {{ post.date }}</small></p>
+                    <p class="card-text mb-1"><small class="updates-card-meta">Published {{ post.date|date:"F j, Y" }}</small></p>
+                    <p class="card-text mb-1"><small class="updates-card-meta">Updated {{ post.updated_at|date:"F j, Y, P" }}</small></p>
                     <h5 class="card-title">{{ post.title }}</h5>
                 </div>
                 <div class="card-body updates-card-body">
