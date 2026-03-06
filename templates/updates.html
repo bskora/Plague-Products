@@ -19,7 +19,8 @@
                     <h5 class="card-title">{{ post.title }}</h5>
                 </div>
                 <div class="card-body updates-card-body">
-                    {{ post.body | safe }}
+<!--                    {{ post.body | safe }}-->
+                                        {{ post.body_html | safe }}
                 </div>
             </div>
           </div>
