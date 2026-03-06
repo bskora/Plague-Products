@@ -9,7 +9,13 @@ class Post(models.Model):
     title = models.CharField(max_length=255)
     date = models.DateField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    is_edited = models.BooleanField(default=False)
     body = QuillField(blank=True, null=True)
+
+    def save(self, *args, **kwargs):
+        if self.pk:
+            self.is_edited = True
+        super().save(*args, **kwargs)
 
     @property
     def body_html(self):
